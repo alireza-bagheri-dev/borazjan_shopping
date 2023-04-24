@@ -6,6 +6,7 @@ cryptography==40.0.2
 defusedxml==0.7.1
 Django==4.2
 django-allauth==0.54.0
+django-crispy-forms==2.0
 idna==3.4
 oauthlib==3.2.2
 psycopg2-binary==2.9.6
