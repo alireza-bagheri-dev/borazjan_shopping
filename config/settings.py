@@ -159,10 +159,13 @@ LOGOUT_REDIRECT_URL = 'home'
 
 # allauth config
 SITE_ID = 1
-AUTHENTICATION_BACKEND = [
-    'django.contrib.auth.backend.ModelBackend',
+
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+    # django allauth
     'allauth.account.auth_backends.AuthenticationBackend',
 ]
+
 ACCOUNT_SESSION_REMEMBER = True
 ACCOUNT_SIGNUP_PASSWORD_ENTER_TWICE = False
 ACCOUNT_USERNAME_REQUIRED = False
@@ -170,9 +173,8 @@ ACCOUNT_AUTHENTICATION_METHOD = 'email'
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_UNIQUE_EMAIL = True
 
-# Crispy config
+# crispy forms settings
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
-
 
 # # EMAIL CONFIG
 # EMAIL_BACKEND = env("DJANGO_EMAIL_BACKEND")
