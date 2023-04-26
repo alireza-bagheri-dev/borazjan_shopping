@@ -1,2 +1,12 @@
 {% extends '_base.html' %}
-hi htere
+{% load i18n %}
+
+{% block page_title %}
+    home
+{% endblock %}
+
+{% block content %}
+    <p>
+    {% trans 'this is home page' %}
+    </p>
+{% endblock %}
