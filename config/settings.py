@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'rosetta',
+    'jalali_date',
 
     # Start App
     'accounts',
