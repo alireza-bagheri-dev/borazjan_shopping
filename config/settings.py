@@ -42,18 +42,22 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'django.contrib.humanize',
     # Install App
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
     'rosetta',
     'jalali_date',
+    'crispy_bootstrap4',
 
     # Start App
     'accounts',
     'products',
     'crispy_forms',
     'pages',
+    'persian_translate',
+    'cart',
 ]
 
 MIDDLEWARE = [
@@ -177,7 +181,7 @@ ACCOUNT_UNIQUE_EMAIL = True
 
 # crispy forms settings
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
-
+CRISPY_ALLOWED_TEMPLATE_PACKS = 'bootstrap4'
 # # EMAIL CONFIG
 # EMAIL_BACKEND = env("DJANGO_EMAIL_BACKEND")
 # EMAIL_HOST = env("DJANGO_EMAIL_HOST")
