@@ -50,6 +50,7 @@ INSTALLED_APPS = [
 
     # Start App
     'accounts',
+    'products',
     'crispy_forms',
     'pages',
 ]
