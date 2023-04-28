@@ -19,7 +19,7 @@ msgstr ""
 
 #: .\models.py:11
 msgid "Product Title"
-msgstr "عکس محصول"
+msgstr "عنوان محصول"
 
 #: .\models.py:12
 msgid "description"

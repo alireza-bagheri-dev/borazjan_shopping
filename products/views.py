@@ -57,14 +57,14 @@ class ProductCreateView(LoginRequiredMixin, generic.CreateView):
     template_name = 'Products/product_create.html'
 
 
-class ProductUpdateView(LoginRequiredMixin, UserPassesTestMixin, generic.UpdateView):
-    model = Product
-    fields = ['title', 'description', 'short_description', 'price', 'active', 'image',]
-    template_name = 'Product/c'
-
-    def test_func(self):
-        obj = self.get_object()
-        return obj.user == self.request.user
+# class ProductUpdateView(LoginRequiredMixin, UserPassesTestMixin, generic.UpdateView):
+#     model = Product
+#     fields = ['title', 'description', 'short_description', 'price', 'active', 'image', ]
+#     template_name = 'Product/product_update.html'
+#
+#     def test_func(self):
+#         obj = self.get_object()
+#         return obj.user == self.request.user
 
 #
 # class BookDeleteView(LoginRequiredMixin, UserPassesTestMixin, generic.DeleteView):

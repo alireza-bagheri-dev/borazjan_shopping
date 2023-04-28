@@ -66,11 +66,13 @@
                                         <span class="mm-text">وبلاگ</span>
                                     </a>
                                 </li>
-                                <li class="mainmenu__item menu-item-has-children">
-                                    <a href="{% url 'product_list' %}" class="mainmenu__link">
-                                        <span class="mm-text">محصولات</span>
-                                    </a>
-                                 </li>
+                                {% if user.is_authenticated %}
+                                    <li class="mainmenu__item menu-item-has-children">
+                                        <a href="{% url 'product_create' %}" class="mainmenu__link">
+                                            <span class="mm-text">محصول جدید</span>
+                                        </a>
+                                     </li>
+                                {% endif %}
                                 <li class="mainmenu__item">
                                     <a href="#" class="mainmenu__link">
                                         <span class="mm-text">تماس با ما</span>
