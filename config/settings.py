@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'rosetta',
     'jalali_date',
     'crispy_bootstrap4',
+    'ckeditor',
 
     # Start App
     'accounts',
@@ -58,6 +59,8 @@ INSTALLED_APPS = [
     'pages',
     'persian_translate',
     'cart',
+    'orders',
+    'payment',
 ]
 
 MIDDLEWARE = [
@@ -189,3 +192,5 @@ CRISPY_ALLOWED_TEMPLATE_PACKS = 'bootstrap4'
 # EMAIL_PORT = 587
 # EMAIL_HOST_USER = env("DJANGO_EMAIL_HOST_USER")
 # EMAIL_HOST_PASSWORD = env("DJANGO_EMAIL_HOST_PASSWORD")
+
+STATIC_ROOT = BASE_DIR.joinpath('staticfiles')
