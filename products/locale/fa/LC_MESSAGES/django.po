@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-28 08:15+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\models.py:16
+msgid "Product Image"
+msgstr "عکس محصول"
+
+#: .\models.py:18
+msgid "Date Time of Creation"
+msgstr "تاریخ و زمان ایجاد"
+
+#: .\models.py:35
+msgid "Very Bad"
+msgstr "خیلی بد"
+
+#: .\models.py:36
+msgid "Bad"
+msgstr "ضعیف"
+
+#: .\models.py:37
+msgid "Normal"
+msgstr "معمولی"
+
+#: .\models.py:38
+msgid "Good"
+msgstr "خوب"
+
+#: .\models.py:39
+msgid "Perfect"
+msgstr "عالی"
+
+#: .\models.py:49
+msgid "Comment Text"
+msgstr "متن ننظر"
+
+#: .\models.py:50
+msgid "What is your score?"
+msgstr "امتیاز شما:"
+
+#: .\templates\products\product_detail.html:34
+#: .\templates\products\product_list.html:62
+msgid "$"
+msgstr "تومان"
+
+#: .\templates\products\product_detail.html:46
+#: .\templates\products\product_list.html:69
+msgid "Add to Cart"
+msgstr "اضافه به سبد خرید"
+
+#: .\templates\products\product_detail.html:60
+msgid "Categories"
+msgstr "دسته بندی"
+
+#: .\templates\products\product_detail.html:75
+msgid "Product Description"
+msgstr "توضیحات محصول"
+
+#: .\templates\products\product_detail.html:153
+msgid "Write your comment"
+msgstr "نظر خود را وارد کنید:"
+
+#: .\templates\products\product_detail.html:159
+msgid "Submit"
+msgstr ""
+
+#: .\templates\products\product_detail.html:163
+msgid "To write your comment please "
+msgstr ""
+
+#: .\templates\products\product_detail.html:164
+msgid "Login"
+msgstr "ورود"
+
+#: .\templates\products\product_list.html:22
+msgid "Page "
+msgstr "صفحه "
+
+#: .\templates\products\product_list.html:23
+msgid " from "
+msgstr " از "
+
+#: .\views.py:48
+msgid "Comment successfully created"
+msgstr "نظر شما با موققیت اضاف شد."
