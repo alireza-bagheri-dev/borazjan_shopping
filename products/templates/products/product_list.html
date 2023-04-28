@@ -20,7 +20,7 @@
                                     <div class="shop-toolbar__left d-flex align-items-sm-center align-items-start flex-sm-row flex-column">
                                         <p class="product-pages">
                                             {% trans 'Page ' %}{{ page_obj.number|translate_number }}
-                                            {% trans ' from ' %}{{ page_obj.end_index|translate_number }}
+                                            {% trans ' from ' %}{{ 3|translate_number }}
                                         </p>
                                     </div>
                                 </div>
@@ -42,7 +42,7 @@
                                                 <figure class="product-image">
                                                     <a href="{{ product.get_absolute_url }}">
                                                         {% if product.image %}
-                                                            <img src="{{ product.image.url }}" alt="Products">
+                                                            <img src="{{ product.image.url }}" alt="Products" height="200px">
                                                         {% endif %}
                                                     </a>
                                                     <div class="ShoppingYar-product-action">
@@ -83,12 +83,12 @@
                             <ul class="pagination">
                                 {% if page_obj.has_previous %}
                                     <li><a href="?page={{ page_obj.previous_page_number }}" class="next page-number"><i class="fa fa-angle-double-right"></i></a></li>
-                                    <li><a href="{{ page_obj.previous_page_number|translate_number }}"><span class="current page-number">{{ 1|translate_number }}</span></a></li>
+                                    <li><a href="?page={{ page_obj.previous_page_number|translate_number }}"><span class="current page-number">{{ page_obj.previous_page_number|translate_number }}</span></a></li>
                                 {% endif %}
                                 <li><span class="current page-number">{{ page_obj.number|translate_number }}</span></li>
 
                                 {% if page_obj.has_next %}
-                                    <li><a href="{{ page_obj.next_page_number|translate_number }}"><span class="current page-number">{{ 1|translate_number }}</span></a></li>
+                                    <li><a href="?page={{ page_obj.next_page_number }}"><span class="current page-number">{{ page_obj.next_page_number|translate_number }}</span></a></li>
                                     <li><a href="?page={{ page_obj.next_page_number }}" class="next page-number"><i class="fa fa-angle-double-left"></i></a></li>
                                 {% endif %}
                             </ul>
@@ -101,20 +101,8 @@
     <!-- Main Content Wrapper Start -->
 
 
-    <!-- Search form Popup Start -->
-    <div class="searchform__popup" id="searchForm">
-        <a href="#" class="btn-close"><i class="flaticon flaticon-cross"></i></a>
-        <div class="searchform__body">
-            <p>در باکس زیر عبارت خود را وارد کنید</p>
-            <form class="searchform">
-                <input type="text" name="popup-search" id="popup-search" class="searchform__input" placeholder="جستجو در بین محصولات...">
-                <button type="submit" class="searchform__submit"><i class="flaticon flaticon-magnifying-glass-icon"></i></button>
-            </form>
-        </div>
-    </div>
-    <!-- Search form Popup End -->
-
-    {% include 'cart/cart_sidebar.html' %}
+{##}
+{#    {% include 'cart/cart_sidebar.html' %}#}
 
     <!-- Global Overlay Start -->
     <div class="ShoppingYar-global-overlay"></div>

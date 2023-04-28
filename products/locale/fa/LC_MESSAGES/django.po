@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-28 08:15+0330\n"
+"POT-Creation-Date: 2023-04-28 08:38+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -94,6 +94,10 @@ msgstr "صفحه "
 #: .\templates\products\product_list.html:23
 msgid " from "
 msgstr " از "
+
+#: .\templates\products\product_list.html:55
+msgid "special discount"
+msgstr "تخفیف ویژه"
 
 #: .\views.py:48
 msgid "Comment successfully created"

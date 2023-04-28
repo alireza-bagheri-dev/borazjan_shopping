@@ -11,10 +11,10 @@ from .forms import CommentForm
 
 class ProductListView(generic.ListView):
     # model = Product
-    queryset = Product.objects.filter(active=True)
+    queryset = Product.objects.filter(active=True).order_by('datetime_created')
     template_name = 'products/product_list.html'
     context_object_name = 'products'
-    paginate_by = 5
+    paginate_by = 4
 
     # def get_queryset(self):
     #
