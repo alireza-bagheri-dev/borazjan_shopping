@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-28 08:38+0330\n"
+"POT-Creation-Date: 2023-04-28 12:05+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,8 +17,28 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
+#: .\models.py:11
+msgid "Product Title"
+msgstr "عکس محصول"
+
+#: .\models.py:12
+msgid "description"
+msgstr "توضیحات محصول"
+
+#: .\models.py:13
+msgid "Short_Description"
+msgstr "توضیح مختصر"
+
+#: .\models.py:14
+msgid "Price"
+msgstr "قیمت محصول (تومان)"
+
+#: .\models.py:15
+msgid "Active"
+msgstr "موجود"
+
 #: .\models.py:16
-msgid "Product Image"
+msgid "Image"
 msgstr "عکس محصول"
 
 #: .\models.py:18
@@ -54,6 +74,7 @@ msgid "What is your score?"
 msgstr "امتیاز شما:"
 
 #: .\templates\products\product_detail.html:34
+#: .\templates\products\product_detail.html:36
 #: .\templates\products\product_list.html:62
 msgid "$"
 msgstr "تومان"
@@ -77,11 +98,11 @@ msgstr "نظر خود را وارد کنید:"
 
 #: .\templates\products\product_detail.html:159
 msgid "Submit"
-msgstr ""
+msgstr "تایید"
 
 #: .\templates\products\product_detail.html:163
 msgid "To write your comment please "
-msgstr ""
+msgstr "لطفا نظر خود را وارد کنید"
 
 #: .\templates\products\product_detail.html:164
 msgid "Login"
@@ -99,6 +120,6 @@ msgstr " از "
 msgid "special discount"
 msgstr "تخفیف ویژه"
 
-#: .\views.py:48
+#: .\views.py:49
 msgid "Comment successfully created"
 msgstr "نظر شما با موققیت اضاف شد."

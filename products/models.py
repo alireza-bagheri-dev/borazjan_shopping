@@ -8,12 +8,13 @@ from ckeditor.fields import RichTextField
 
 
 class Product(models.Model):
-    title = models.CharField(max_length=100)
-    description = RichTextField()
-    short_description = models.TextField(blank=True)
-    price = models.PositiveIntegerField(default=0)
-    active = models.BooleanField(default=True)
-    image = models.ImageField(_('Product Image'), upload_to='product/product_cover/', blank=True, )
+    title = models.CharField(_('Product Title'), max_length=100)
+    description = RichTextField(_('description'), )
+    short_description = models.TextField(_('Short_Description'), blank=True)
+    price = models.PositiveIntegerField(_('Price'), default=0)
+    active = models.BooleanField(_('Active'), default=True)
+    image = models.ImageField(_('Image'), upload_to='product/product_cover/', blank=True, )
+
 
     datetime_created = models.DateTimeField(_('Date Time of Creation'), default=timezone.now)
     datetime_modified = models.DateTimeField(auto_now=True)

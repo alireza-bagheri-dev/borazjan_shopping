@@ -19,19 +19,19 @@ msgstr ""
 
 #: .\templates\_base.html:103
 msgid "Logout"
-msgstr ""
+msgstr "خروج"
 
 #: .\templates\_base.html:106
 msgid "Profile"
-msgstr ""
+msgstr "پروفایل"
 
 #: .\templates\_base.html:110
 msgid "Login"
-msgstr ""
+msgstr "ورود"
 
 #: .\templates\_base.html:113
 msgid "Signup"
-msgstr ""
+msgstr "ثبت نام"
 
 #: .\templates\account\email\email_confirmation_message.txt:5
 #, python-format

@@ -1,8 +1,9 @@
 from django.views import generic
 from django.shortcuts import get_object_or_404, reverse, render
-from django.http import HttpResponse
 from django.utils.translation import gettext as _
 from django.contrib import messages
+from django.urls import reverse_lazy
+from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 
 
 from .models import Product, Comment
@@ -30,7 +31,7 @@ class ProductDetailView(generic.DetailView):
         return context
 
 
-class CommentCreateView(generic.CreateView):
+class CommentCreateView(LoginRequiredMixin, generic.CreateView):
     model = Comment
     form_class = CommentForm
 
@@ -48,3 +49,29 @@ class CommentCreateView(generic.CreateView):
         messages.success(self.request, _('Comment successfully created'))
 
         return super().form_valid(form)
+
+
+class ProductCreateView(LoginRequiredMixin, generic.CreateView):
+    model = Product
+    fields = ['title', 'description', 'short_description', 'price', 'active', 'image',]
+    template_name = 'Products/product_create.html'
+
+
+class ProductUpdateView(LoginRequiredMixin, UserPassesTestMixin, generic.UpdateView):
+    model = Product
+    fields = ['title', 'description', 'short_description', 'price', 'active', 'image',]
+    template_name = 'Product/c'
+
+    def test_func(self):
+        obj = self.get_object()
+        return obj.user == self.request.user
+
+#
+# class BookDeleteView(LoginRequiredMixin, UserPassesTestMixin, generic.DeleteView):
+#     model = Product
+#     template_name = 'Product/Product_delete.html'
+#     success_url = reverse_lazy('product_list')
+#
+#     def test_func(self):
+#         obj = self.get_object()
+#         return obj.user == self.request.user
