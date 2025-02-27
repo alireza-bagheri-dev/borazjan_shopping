@@ -54,7 +54,7 @@ class CommentCreateView(LoginRequiredMixin, generic.CreateView):
 class ProductCreateView(LoginRequiredMixin, generic.CreateView):
     model = Product
     fields = ['title', 'description', 'short_description', 'price', 'active', 'image',]
-    template_name = 'Products/product_create.html'
+    template_name = 'products/product_create.html'
 
 
 # class ProductUpdateView(LoginRequiredMixin, UserPassesTestMixin, generic.UpdateView):

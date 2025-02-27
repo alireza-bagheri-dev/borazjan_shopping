@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>درباره ما</title>
+    <style>
+        body {
+            font-family: 'IRANSans', Tahoma, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #4CAF50;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1em;
+            text-align: justify;
+        }
+
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .team-member {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: calc(33.33% - 20px);
+            text-align: center;
+        }
+
+        .team-member img {
+            width: 100%;
+            height: auto;
+        }
+
+        .team-member h3 {
+            margin: 10px 0;
+            color: #4CAF50;
+        }
+
+        .team-member p {
+            margin: 0 10px 10px;
+        }
+
+        @media (max-width: 768px) {
+            .team-member {
+                width: calc(50% - 20px);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .team-member {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>درباره ما</h1>
+        <p>ما یک تیم پویا و نوآور هستیم که با هدف ایجاد تجربه‌های استثنایی برای شما فعالیت می‌کنیم.</p>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+
+        <!-- About Section -->
+        <section>
+            <h2>معرفی</h2>
+            <p>
+                شرکت ما از سال 2020 فعالیت خود را در زمینه طراحی وب، توسعه نرم‌افزار و ارائه خدمات دیجیتال آغاز کرده است.
+                ما به دنبال ایجاد راه‌حل‌های نوآورانه برای مشکلات شما هستیم و با استفاده از آخرین فناوری‌ها، تجربه‌هایی استثنایی را برای کاربران ایجاد می‌کنیم.
+            </p>
+        </section>
+
+        <!-- Values Section -->
+        <section>
+            <h2>ارزش‌های ما</h2>
+            <ul style="list-style-type: disc; padding-left: 20px;">
+                <li><strong>نوآوری:</strong> همواره به دنبال راه‌حل‌های جدید و بهتر هستیم.</li>
+                <li><strong>کیفیت:</strong> کیفیت محصولات و خدمات ما اولویت ما است.</li>
+                <li><strong>مشتری‌محوری:</strong> رضایت مشتری ما را به عنوان اصلی‌ترین هدف در نظر می‌گیریم.</li>
+            </ul>
+        </section>
+
+        <!-- Team Section -->
+        <section>
+            <h2>تیم ما</h2>
+            <div class="team">
+                <div class="team-member">
+                    <h3>علی احمدی</h3>
+                    <p>مدیر عامل</p>
+                </div>
+                <div class="team-member">
+                    <h3>مریم حسینی</h3>
+                    <p>طراح وب</p>
+                </div>
+                <div class="team-member">
+                    <h3>مصطفی رحیمی</h3>
+                    <p>توسعه‌دهنده نرم‌افزار</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+</html>
