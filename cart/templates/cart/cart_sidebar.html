@@ -14,14 +14,14 @@
                     {% for item in cart %}
                         <li class="mini-cart__product d-flex justify-content-between">
                             <div class="mini-cart__product__image">
-                                <a href="#">
+                                <a href="{% url 'product_detail' item.product_obj.id %}">
                                     <img src="{{ item.product_obj.image.url }}" alt="assets/img/products/prod-1-100x100.jpg">
                                 </a>
                             </div>
                             <div class="mini-cart__product__content pt-2">
                                 <span class="mini-cart__product__title d-flex flex-row justify-content-between">
-                                    <a href="#">{{ item.product_obj.title }}</a>
-                                    <a href="#" class="">
+                                    <a href="{% url 'product_detail' item.product_obj.id %}">{{ item.product_obj.title }}</a>
+                                    <a href="{% url 'cart:cart_remove' item.product_obj.id %}" class="">
                                         &#10060;
                                     </a>
                                 </span>
