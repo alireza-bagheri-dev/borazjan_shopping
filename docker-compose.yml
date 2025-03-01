@@ -2,6 +2,7 @@ version: '3.9'
 
 services:
   web:
+    container_name: web
     build: .
     command: python /code/manage.py runserver 0.0.0.0:8000
     volumes:
@@ -17,5 +18,6 @@ services:
 
   db:
     image: postgres:14
+    container_name: db
     environment:
       - "POSTGRES_HOST_AUTH_METHOD=trust"
