@@ -57,21 +57,21 @@ class ProductCreateView(LoginRequiredMixin, generic.CreateView):
     template_name = 'products/product_create.html'
 
 
-# class ProductUpdateView(LoginRequiredMixin, UserPassesTestMixin, generic.UpdateView):
-#     model = Product
-#     fields = ['title', 'description', 'short_description', 'price', 'active', 'image', ]
-#     template_name = 'Product/product_update.html'
-#
-#     def test_func(self):
-#         obj = self.get_object()
-#         return obj.user == self.request.user
+class ProductUpdateView(LoginRequiredMixin, UserPassesTestMixin, generic.UpdateView):
+    model = Product
+    fields = ['title', 'description', 'short_description', 'price', 'active', 'image', ]
+    template_name = 'products/product_update.html'
 
-#
-# class BookDeleteView(LoginRequiredMixin, UserPassesTestMixin, generic.DeleteView):
-#     model = Product
-#     template_name = 'Product/Product_delete.html'
-#     success_url = reverse_lazy('product_list')
-#
-#     def test_func(self):
-#         obj = self.get_object()
-#         return obj.user == self.request.user
+    def test_func(self):
+        obj = self.get_object()
+        return obj.user == self.request.user
+
+
+class ProductDeleteView(LoginRequiredMixin, UserPassesTestMixin, generic.DeleteView):
+    model = Product
+    template_name = 'products/product_delete.html'
+    success_url = reverse_lazy('product_list')
+
+    def test_func(self):
+        obj = self.get_object()
+        return obj.user == self.request.user
