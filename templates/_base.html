@@ -102,17 +102,17 @@
                             <ul class="user-info-menu">
                                 {% if user.is_authenticated %}
                                     <li>
-                                        <a class="text-right" href="{% url 'logout' %}">{% trans 'Logout' %}</a>
+                                        <a class="text-right" href="{% url 'account_logout' %}">{% trans 'Logout' %}</a>
                                     </li>
                                     <li>
                                         <a class="text-right" href="#">{% translate 'Profile' %}</a>
                                     </li>
                                 {% else %}
                                     <li>
-                                        <a class="text-right" href="{% url 'login' %}">{% translate 'Login' %}</a>
+                                        <a class="text-right" href="{% url 'account_login' %}">{% translate 'Login' %}</a>
                                     </li>
                                     <li>
-                                        <a class="text-right" href="{% url 'signup' %}">{% translate 'Signup' %}</a>
+                                        <a class="text-right" href="{% url 'account_signup' %}">{% translate 'Signup' %}</a>
                                     </li>
                                 {% endif %}
                             </ul>

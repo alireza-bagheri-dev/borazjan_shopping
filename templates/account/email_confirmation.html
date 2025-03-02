@@ -1,0 +1,13 @@
+{% extends "_base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="auth-container">
+    <div class="auth-card">
+        <i class="bi bi-check-circle-fill success-icon"></i>
+        <h2>ایمیل شما با موفقیت تایید شد!</h2>
+        <p>حالا می‌توانید به حساب کاربری خود دسترسی داشته باشید.</p>
+        <a href="{% url 'account_login' %}" class="btn btn-primary">ورود به حساب کاربری</a>
+    </div>
+</div>
+{% endblock %}
