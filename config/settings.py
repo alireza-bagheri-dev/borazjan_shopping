@@ -28,7 +28,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECRET_KEY = env("DJANGO_SECRET_KEY")
 SECRET_KEY = 'django-insecure-1hjfrg!4gh%gpdqg(r2c@axf-3s_8flb$S$1%ubimo+8w4e@nj'
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'https://borazjan-shopping.liara.run/', 'borazjan-shopping.liara.run/']
 
