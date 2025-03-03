@@ -1,0 +1,1019 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2025-03-01T09:54:30.126Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "ساعت اسپرت",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Short_Description\", \"Image\", \"Date Time of Creation\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2025-03-01T09:56:50.110Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "جوراب ورزشی",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"comment\", \"object\": \"Comment object (1)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2025-03-01T09:58:48.599Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "مانتو",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"comment\", \"object\": \"Comment object (2)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2025-03-01T10:00:38.017Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "کفش ورزشی",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"comment\", \"object\": \"Comment object (3)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2025-03-01T10:04:22.642Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "5",
+        "object_repr": "ماشین اصلاح مردانه",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"comment\", \"object\": \"Comment object (4)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2025-03-01T10:09:53.930Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "6",
+        "object_repr": "قهوه فوری گوددی goodday",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"comment\", \"object\": \"Comment object (5)\"}}, {\"added\": {\"name\": \"comment\", \"object\": \"Comment object (6)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2025-03-01T10:13:19.738Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "7",
+        "object_repr": "آیفون 16",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2025-03-01T10:15:19.765Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "8",
+        "object_repr": "ساعت هوشمند سامسونگ",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2025-03-01T10:18:27.101Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "9",
+        "object_repr": "لپ تاپ اداری",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 4,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 4,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 4,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 4,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 5,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 5,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 5,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 5,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add email address",
+        "content_type": 6,
+        "codename": "add_emailaddress"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change email address",
+        "content_type": 6,
+        "codename": "change_emailaddress"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete email address",
+        "content_type": 6,
+        "codename": "delete_emailaddress"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view email address",
+        "content_type": 6,
+        "codename": "view_emailaddress"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add email confirmation",
+        "content_type": 7,
+        "codename": "add_emailconfirmation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change email confirmation",
+        "content_type": 7,
+        "codename": "change_emailconfirmation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete email confirmation",
+        "content_type": 7,
+        "codename": "delete_emailconfirmation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view email confirmation",
+        "content_type": 7,
+        "codename": "view_emailconfirmation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add social account",
+        "content_type": 8,
+        "codename": "add_socialaccount"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change social account",
+        "content_type": 8,
+        "codename": "change_socialaccount"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete social account",
+        "content_type": 8,
+        "codename": "delete_socialaccount"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view social account",
+        "content_type": 8,
+        "codename": "view_socialaccount"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add social application",
+        "content_type": 9,
+        "codename": "add_socialapp"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change social application",
+        "content_type": 9,
+        "codename": "change_socialapp"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete social application",
+        "content_type": 9,
+        "codename": "delete_socialapp"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view social application",
+        "content_type": 9,
+        "codename": "view_socialapp"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add social application token",
+        "content_type": 10,
+        "codename": "add_socialtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change social application token",
+        "content_type": 10,
+        "codename": "change_socialtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete social application token",
+        "content_type": 10,
+        "codename": "delete_socialtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view social application token",
+        "content_type": 10,
+        "codename": "view_socialtoken"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 11,
+        "codename": "add_customuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 11,
+        "codename": "change_customuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 11,
+        "codename": "delete_customuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 11,
+        "codename": "view_customuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add product",
+        "content_type": 12,
+        "codename": "add_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change product",
+        "content_type": 12,
+        "codename": "change_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete product",
+        "content_type": 12,
+        "codename": "delete_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view product",
+        "content_type": 12,
+        "codename": "view_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add comment",
+        "content_type": 13,
+        "codename": "add_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change comment",
+        "content_type": 13,
+        "codename": "change_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete comment",
+        "content_type": 13,
+        "codename": "delete_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view comment",
+        "content_type": 13,
+        "codename": "view_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add order",
+        "content_type": 14,
+        "codename": "add_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change order",
+        "content_type": 14,
+        "codename": "change_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete order",
+        "content_type": 14,
+        "codename": "delete_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view order",
+        "content_type": 14,
+        "codename": "view_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add order item",
+        "content_type": 15,
+        "codename": "add_orderitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change order item",
+        "content_type": 15,
+        "codename": "change_orderitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete order item",
+        "content_type": 15,
+        "codename": "delete_orderitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view order item",
+        "content_type": 15,
+        "codename": "view_orderitem"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "account",
+        "model": "emailaddress"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "account",
+        "model": "emailconfirmation"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "socialaccount",
+        "model": "socialaccount"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "socialaccount",
+        "model": "socialapp"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "socialaccount",
+        "model": "socialtoken"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "accounts",
+        "model": "customuser"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "products",
+        "model": "product"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "products",
+        "model": "comment"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "orders",
+        "model": "order"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "orders",
+        "model": "orderitem"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "1o21ln8frlvbrg31z6iwey1pq5hslx65",
+    "fields": {
+        "session_data": ".eJxVjDsOgzAQBe-ydWQt_oBNmZ4zoLW9iUkiI2FTIe4ekGho38y8DQItFfptf8BIa03jWngZpwg9NHDbPIUv5xPED-X3LMKc6zJ5cSriokUMc-Tf83JvB4lKOmqpPdlGd5IwOGTFSJ11xjboXjZKZqc67bVrjYmsnDYoMbaIR6bYMMP-BweuOl4:1toJvz:knDLoX_Ihh8DA1Ox3Vg6d5yE7IVpFcHF_s59ikUZUog",
+        "expire_date": "2025-03-15T10:19:03.757Z"
+    }
+},
+{
+    "model": "accounts.customuser",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$ltg7KjEFmBJa8gFIFUnFPM$ULmQIa0cYSE+fXrXBx7oo7OsFCmjWQTXA3Aq/9R3hPQ=",
+        "last_login": "2025-03-01T09:05:39.852Z",
+        "is_superuser": true,
+        "username": "hadi",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-03-01T09:05:29.924Z",
+        "age": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "title": "ساعت اسپرت",
+        "description": "<h2><strong>&nbsp;ساعت اسپرت و نکات مهم پیرامون آن</strong></h2>\r\n\r\n<p>ساعت اسپرت در بین ساعت ها طرفداران زیادی دارد. اما در ابتدا تعریفی از&nbsp;<strong>ساعت اسپرت</strong>&nbsp;و&nbsp;<a href=\"https://www.naghshezaman.com/fa/product/cat/1-%D8%B3%D8%A7%D8%B9%D8%AA-%D9%85%DA%86%DB%8C.html\"><strong>ساعت مچی</strong></a>&nbsp;داشته باشیم. ساعت وسیله ای است که برای اطلاع از زمان و فواصل زمانی کوتاه مورد استفاده قرار می گیرد. این وسیله دارای ساز و کار مکانیکی یا الکترونیکی است. معمولا داری فرمت 24 ساعته است. بعضی انواع آن دارای تقسیم بندی 12 ساعته نیز هستند. همچنین این ساعت ها دارای صفحه ای هستند که نشان دهنده ی تاریخ ، سال و ماه می باشد.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img alt=\"ساعت اسپرت\" src=\"http://www.naghshezaman.ir/upload/upload/1606412431.jpg\" /></p>\r\n\r\n<h2><strong>معرفی و تاریخچه ساعت مچی اسپرت:</strong></h2>\r\n\r\n<p>گویا مردم بابل را سازندگان اولین ساعت ها می پندارند. اولین ساعت مچی در سال 1510 میلادی ساخته&nbsp; شد&nbsp; و&nbsp; خبر تولید آن بسیار سر و صدا بپا کرد. البته در اوایل اختراع ساعت مچی، مردم استقبال چندان زیادی از آن نکردند و بیشتر خواستار ساعت های زمینی و به اصطلاح بزرگ و سنگین بودند.&nbsp;اولین ساعت مچی در سال 1524 میلادی به فروش رسید. کشور سوئیس که جزء بزرگ ترین و برند ترین کشور های جهان در تولید ساعت است، از سال 1541 میلادی شروع به ساخت و طراحی ساعت کرد.&nbsp;در دهه 70 تنها کشور انگلستان و سوئیس در ساخت و طراحی ساعت با هم رقابت می کردند و هیچ کشور دیگری در میدان رقابت نبود و حتی قصد تولید ساعت را نیز نمی کرد.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>در اواخر قرن 20 انواع زیادی از ساعت های مچی ساخته و طراحی شدند و بازار خرید پر از&nbsp;<strong>ساعت اسپرت</strong>&nbsp;مچی با طرح های گوناگون بود. ساعت کوارتزی نیز که حتی امروزه نیز طرفداران بسیار زیادی دارد در سال 1969 میلادی ساخته و روانه بازار خرید شد.&nbsp;شرکتی به اسم سواچ که جزء بهترین شرکت های طراحی ساعت است در سال 1983 میلادی اولین ساعت پلاستیکی را که کوارتزی نیز بود طراحی کرد و روانه بازار کرد. قبل از اینکه شرکت سواچ&nbsp; اقدام به ساخت و طراحی ساعت پلاستیکی کند، ساعت ها بیشتر از جنس فلزی ، برنز و برنج بودند.&nbsp;با گذشت چندین سال از ساخت ساعت، کشور سوئیس شهرت مثال زدنی در امر ساعت سازی دارد و سود بسیار زیادی علاوه بر شکلات سازی در حیطه ساعت سازی نیز، کسب کرده است.&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img alt=\"ساعت اسپرت\" src=\"http://www.naghshezaman.ir/upload/upload/1606412491.jpg\" /></p>\r\n\r\n<h2><strong>آشنایی بیشتر با ساعت اسپرت:</strong></h2>\r\n\r\n<p>ساعت مچی اسپرت بیشتر برای سیس ها و تیپ های ورزشی مورد استفاده قرار می گیرد و قشر جوان جامعه استقبال زیادی از این&nbsp; نوع ساعت ها می کنند.&nbsp;ساعت مچی اسپرت در رنگ های مختلفی ساخته می شوند. این نوع ساعت ها دارای وزن بسیار کمی نیز هستند که باعث می شود فرد استفاده کننده احساس راحتی&nbsp; بکند.این نوع ساعت ها استفاده زیادی در ورزش های ماراتونی و استقامتی دارند و دارای انواع چند زمانه هستند. ساعت اسپرت دارای امکاناتی مانند قطب نما ، فشار سنج ، سنسور حرارتی حساس به دما ، عمق سنج ، مسافت سنج ، کالری سنج و...است.&nbsp;</p>\r\n\r\n<p>آقای کلاوس اولین ساعت مچی تک عقربه ای را ابداع کرد و همین اختراع زمینه ای بود برای ساخت انواع ساعت های آنالوگ. این نوع ساعت ها دارای فرمت های 12 ساعته یا 24 ساعته هستند. خط های بزرگ روی صفحه نمایش نشان دهنده ساعت، خط های کوچک نشانگر ، نیم ساعت ، خط های خیلی کوچک نیز برای نشان دادن ربع ساعت مورد استفاده قرار می گیرند.&nbsp;</p>\r\n\r\n<p>اغلب تاریخ بر روی این نوع از ساعت اسپرت نیز مشخص می شود. این نوع ساعت ها بسیار راحت&nbsp; مورد استفاده قرار می گیرند و طرفداران زیادی نیز دارند.ساعت اسپرت مچی 24 ساعته نسبت به ساعت 12 ساعته پیشرفته تر و خاص تر است . با سپری شدن یک شبانه روز عقربه ساعت شمار یک دور کامل دور صفحه نماش را می زند.&nbsp;برنامه ریزی با ساعت های 12 ساعته به طبع سخت تر است، زیرا ساعت مچی اسپرت 12 ساعته نسبت به ساعت اسپرت 24 ساعته دقت کمی دارند. در این نوع ساعت ها بزرگ ترین خط نشان دهنده ساعت ، خط های کوچک نشان دهنده، نیم ساعت و خط های کوچتر از آن نیز نشان دهنده ی ربع ساعت است.&nbsp;</p>\r\n\r\n<p><img alt=\"ساعت اسپرت\" src=\"http://www.naghshezaman.ir/upload/upload/1606412586.jpg\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>دقت این نوع ساعت ها 10 دقیقه است. با اینکه ساعت مچی اسپورت 24 ساعته برای مشاغل حرفه ای مورد استفاده قرار می گیرد، اما افراد معمولی نیز که حساسیت زیادی روی زمان بندی خود دارند از ساعت مچی اسپورت 24 ساعته استفاده می کنند.&nbsp;در ساعت مچی اسپرت 12 ساعته باید برای تعیین دقیق زمان به آسمان و روشن یا تاریک بودن هوا توجه کرد. اما در ساعت 24 ساعته چنین مشکلی وجود ندارد.&nbsp;کسانی که در محیط های پوشیده و سربسته کار می کنند و همچنین کسانی که فضا نورد هستند و افرادی که در معدن کار می کنند بیشتر از ساعت 24 ساعته استفاده می کنند.&nbsp;</p>\r\n\r\n<p>ابتدائی ترین&nbsp;<strong>ساعت اسپرت مردانه</strong>&nbsp;،&nbsp; ساعت سه عقربه ای با تقسیم بندی 12 ساعته است. این نوع ساعت ها کارکرد بسیار آسانی دارند. عقربه ساعت شمار این نوع ساعت ها دو بار حول صفحه ساعت را می چرخد. عقربه دقیقه شمار هم در هر ساعت یک دور کامل می زند. عقربه ثانیه شمار نیز در هر دقیقه یک دور کامل دور صفحه را می زند.&nbsp;ساعت اسپرت بیشتر در انواع صفحه گرد طراحی می شود چون صفحه گرد فروش بیشتری بین اقشار جامعه دارد تا انواع مربع ، مستطیل ، لوزی و...</p>\r\n\r\n<p><strong>بیشتر مطالعه کنید :&nbsp;<a href=\"https://www.naghshezaman.com/fa/news/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AE%D8%B1%DB%8C%D8%AF/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AE%D8%B1%DB%8C%D8%AF/9-%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%D8%A7%D9%86%D9%88%D8%A7%D8%B9-%D8%B3%D8%A7%D8%B9%D8%AA-%D9%85%DA%86%DB%8C-%D8%AF%DB%8C%D8%AC%DB%8C%D8%AA%D8%A7%D9%84-%D9%88-%D9%85%D9%82%D8%A7%DB%8C%D8%B3%D9%87-%D8%A2%D9%86-%D8%A8%D8%A7-%D8%B3%D8%A7%D8%B9%D8%AA-%D8%A2%D9%86%D8%A7%D9%84%D9%88%DA%AF.html\">ساعت مچی دیجیتال</a></strong></p>\r\n\r\n<h2><strong>نگاهی به ساعت اسپرت مردانه:</strong></h2>\r\n\r\n<p>این نوع ساعت نسبت به&nbsp;<a href=\"https://www.naghshezaman.com/fa/product/cat/%D8%B3%D8%A7%D8%B9%D8%AA-%D9%85%DA%86%DB%8C/5-%D8%B3%D8%A7%D8%B9%D8%AA-%D9%85%DA%86%DB%8C-%D8%B2%D9%86%D8%A7%D9%86%D9%87.html\"><strong>ساعت مچی زنانه</strong></a>&nbsp;فروش زیادتری دارد؛ زیرا بانوان تمایل زیادی به خرید ساعت های کلاسیک دارند تا ساعت های ورزشی یا اسپورت.&nbsp;این نوع ساعت های اسپرت در رنگ های قرمز، آبی ، سبز، مشکی ، نارنجی ، زرد و...طراحی و ساخته می شوند.&nbsp;بند ساعت اسپرت مردانه مقاومت بالایی در برابر فشار یا کشیدگی دست دارد و به همین دلیل انتخاب بسیاری از مردان چنین ساعتی است. در ساخت ساعت های اسپرت به ندرت از روکش طلا ،نقره ، الماس و سنگ های گران قیمت استفاده می شود.&nbsp;</p>\r\n\r\n<p><img alt=\"ساعت اسپرت\" src=\"http://www.naghshezaman.ir/upload/upload/1606412617.jpg\" /></p>\r\n\r\n<h2><strong>قیمت ساعت مچی اسپرت</strong></h2>\r\n\r\n<p>بیشترین تنوع&nbsp;<strong>ساعت مچی اسپرت</strong>&nbsp;در نوع عقربه دار دیده می شود. این&nbsp; نوع ساعت مچی اسپرت جنبه فانتزی زیادی دارند و خیلی شیک و لاکچری هستند.&nbsp;قیمت ساعت مچی اسپرت نسبت به بقیه انواع ساعت ها بسیار مناسب و مقرون به صرفه تر است و بسیاری از مردم اولویت اول خود در خرید را بر ساعت مچی نوع اسپرت آن قرار می دهند.&nbsp;بعضی از انواع آن دارای بندی از جنس برزنت هستند که تا حدود زیادی نسبت به آب مقاوم است. البته جنس مواد به کار رفته در ساعت اسپرت بسیار حائز اهمیت تا ماندگاری بالایی داشته و مستحکم باشد. مهم ترین مولفه برای شرکت های ساعت سازی تولید محصولات با کیفیت برای رضایت بیشتر و سلامتی مشتری است.</p>",
+        "short_description": "ساعت مچی اسپرت بیشتر برای سیس ها و تیپ های ورزشی مورد استفاده قرار می گیرد و قشر جوان جامعه استقبال زیادی از این  نوع ساعت ها می کنند. ساعت مچی اسپرت در رنگ های مختلفی ساخته می شوند. این نوع ساعت ها دارای وزن بسیار کمی نیز هستند که باعث می شود فرد استفاده کننده احساس راحتی  بکند.این نوع ساعت ها استفاده زیادی در ورزش های ماراتونی و استقامتی دارند و دارای انواع چند زمانه هستند. ساعت اسپرت دارای امکاناتی مانند قطب نما ، فشار سنج ، سنسور حرارتی حساس به دما ، عمق سنج ، مسافت سنج ، کالری سنج و...است.",
+        "price": 5000000,
+        "active": true,
+        "image": "product/product_cover/watch_I4uINFU.jpg",
+        "datetime_created": "2025-03-01T09:06:23Z",
+        "datetime_modified": "2025-03-01T09:54:30.122Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "user": 1,
+        "title": "جوراب ورزشی",
+        "description": "<h2>&nbsp;</h2>\r\n\r\n<h2>الیاف به کار رفته در جوراب ورزشی چیست؟</h2>\r\n\r\n<p>در تولید جوراب ورزشی از الیاف متنوعی استفاده می&zwnj;شود که این مهم در کنار رنگ، طرح و برند تولید کننده، یکی از نکات تعیین قیمت جوراب ورزشی به شمار می&zwnj;آید. اما اگر بخواهیم در قالب لیستی این متریال را نام ببریم، به شرح زیر خواهد بود:</p>\r\n\r\n<ul>\r\n\t<li><strong>پنبه؛</strong></li>\r\n\t<li><strong>پشم؛</strong></li>\r\n\t<li><strong>آکریلیک؛</strong></li>\r\n\t<li><strong>نایلون؛</strong></li>\r\n\t<li><strong>لاکرا.</strong></li>\r\n</ul>\r\n\r\n<p>موارد نام برده شده عموما به صورت ترکیبی در ساختار تولید جوراب استفاده می&zwnj;شوند و نوع ورزش شما در انتخاب هر کدام از آن&zwnj;ها تعیین کننده است.</p>\r\n\r\n<h2>کاربرد جوراب ورزشی چیست؟</h2>\r\n\r\n<p><strong>مهم&zwnj;ترین ویژگی جوراب ورزشی ایجاد یک لایه برای محافظت از پاها در برابر تاول زدن و بو گرفتن است</strong>. در واقع جوراب&zwnj;های ورزشی 2 الی 3 برابر ضخیم&zwnj;تر از جوراب&zwnj;های معمولی هستند، به همین خاطر زمانی که ورزشکاران جوراب و کفش ورزشی به پا می&zwnj;کنند احساس راحتی بیشتری خواهند داشت.</p>\r\n\r\n<p>فعالیت&zwnj;های ورزشی متفاوت، فشارهای متفاوتی بر روی پا ایجاد خواهند کرد برای همین شما نمی&zwnj;توانید از یک جوراب یکسان به طور مثال برای دوچرخه سواری، دویدن یا فوتبال استفاده کنید. همین امر است که تنوع جوراب ورزشی را گسترش داده است. در ادامه مقاله ما حتما به انواع این جوراب&zwnj;ها خواهیم پرداخت.</p>\r\n\r\n<h2>انواع جوراب ورزشی کدام&zwnj;اند؟</h2>\r\n\r\n<p>نوع ورزش شما به طور کامل در تعیین نوع جوراب ورزشیتان تاثیر گذار است. بیشتر از این که در ورزش از جوراب برای گرم نگه داشتن پا و شیک بودن استفاده شود، اهداف مهمتری وجود خواهد داشت که این اهداف در هر رشته ورزشی متفاوت است. در ادامه&nbsp;<strong>انواع جوراب ورزشی</strong>&nbsp;را نام برده و هر کدام را به اختصار توضیح خواهیم داد.</p>\r\n\r\n<h3>جوراب ورزشی بسکتبال</h3>\r\n\r\n<p><strong>جوراب&zwnj; ورزشی بسکتبال</strong>&nbsp;می&zwnj;تواند ساق بلند یا ساق کوتاه باشد. طراحی این جوراب به گونه&zwnj;ای است که محافظ نقاط مختلفی از پا باشد، ضربات را جذب کند و سایش را در زمان حرکت بازیکن به حداقل برساند.</p>\r\n\r\n<h3>جوراب ورزشی رانینگ</h3>\r\n\r\n<p>ورزش دو یا دویدن یکی از ورزش&zwnj;های مهم المپیک به حساب می&zwnj;آید. از همین روی توجه به لباس در آن حائز اهمیت خواهد بود. انواع مختلفی از&nbsp;<strong>جوراب رانینگ</strong>&nbsp;وجود دارد که هر کدام ویژگی&zwnj;های زیادی برای انتخاب ارائه می&zwnj;دهند.</p>\r\n\r\n<p>برخی جوراب&zwnj;ها متناسب با پای چپ و راست تولید می&zwnj;شوند؛ بنابر این لایه گذاری و ساپورت متفاوتی برای هر پا ارائه خواهند کرد. این دسته از جوراب&zwnj;های ورزشی اغلب در قسمت پنجه برای کاهش سایش درز نداشته، با مواد جذب کننده رطوبت تولید شده و دارای مناطق فشرده در اطراف قوس پا برای افزایش حمایت در حین دویدن یا راه رفتن مداوم هستند.</p>\r\n\r\n<h3>جوراب ورزشی فوتبال</h3>\r\n\r\n<p><strong>جوراب&zwnj;های فوتبال</strong>&nbsp;از مواد ضخیم&zwnj;تری برای جذب عرق و نگه داشتن ساق پا در مکان درست خود، تولید می&zwnj;شوند. برخی از جوراب ورزشی فوتبال با محافظ ساق پا تولید می&zwnj;شوند که این چندان معمول نیست. جوراب&zwnj;های فوتبال از نایلون، اکریلیک یا پارچه&zwnj;های کش&zwnj;بافت تولید خواهند شد.</p>\r\n\r\n<h3>جوراب ورزشی والیبال</h3>\r\n\r\n<p><strong>جوراب ورزشی والیبال</strong>&nbsp;عموما ساق کوتاه است. همچنین ویژگی&zwnj; این جوراب&zwnj;ها شامل سبک بودن، چسبان و نرم بودن، می&zwnj;شود. این دسته از جوراب&zwnj;ها برای جذب عرق و کاهش گرما طراحی شده و از آن&zwnj;جا که والیبال ورزش داخل سالن است، خنک ماندن برای بازیکنان بسیار مهم خواهد بود.</p>\r\n\r\n<h2>توجه به سایز در خرید جوراب ورزشی</h2>\r\n\r\n<p>بر خلاف تفکر عموم مردم سایز بندی جوراب&zwnj;ها جهانی نمی&zwnj;باشد. اللخصوص جوراب ورزشی که باید چگونگی تناسب جوراب و تناسب کفش با پا در سایز آن مد نظر باشد. انتخاب سایز مناسب جوراب برای هر ورزشکار، به واقع در بهبود عملکرد او تاثیر گذار خواهد بود. پس بهتر است برای خرید جوراب ورزشی، سایز متناسب با پا و کفش را در نظر داشته باشید.</p>\r\n\r\n<h2>تفاوت جوراب ورزشی و جوراب روزمره</h2>\r\n\r\n<p>قبل از ورود به مهمترین راهنمای خرید جوراب ورزشی بهتر دانستیم که کمی در رابطه با تفاوت جوراب ورزشی و جوراب روزمره برای شما بنویسیم. جوراب&zwnj;های ورزشی به گونه&zwnj;ای طراحی و تولید شده&zwnj;اند تا به بهترین نحو از آسیب جلوگیری کنند و رطوبت و عرق را به سرعت جذب و خشک کنند.</p>\r\n\r\n<p>این نوع جوراب&zwnj;ها دارای هیچ درز یا رد دوختگی نیستند تا پای ورزشکاران اذیت نشود. اما جورابی که به صورت روزمره مورد استفاده قرار می&zwnj;گیرد بسیاری از این ویژگی&zwnj;ها را نداشته و عموما با قیمت خیلی پایینی عرضه می&zwnj;شود تا همه افراد بتوانند از آن استفاده کنند.</p>\r\n\r\n<h2>دسته&zwnj;بندی انواع جوراب ورزشی به صورت کلی</h2>\r\n\r\n<p>در این بخش تصمیم داریم تا به صورت کلی یکبار دیگر تمام موارد دسته&zwnj;بندی جوراب ورزشی را نام ببریم تا شما با مرور آن، بهتر بدانید که نسبت به نوع ورزشی که انجام می&zwnj;دهید، در مورد کدام مورد باید تحقیق کنید.</p>\r\n\r\n<ul>\r\n\t<li><strong>جوراب ورزشی ساق بلند؛</strong></li>\r\n\t<li><strong>جوراب ورزشی ساق کوتاه؛</strong></li>\r\n\t<li><strong>جوراب ورزشی فوتبال؛</strong></li>\r\n\t<li><strong>جوراب ورزشی بسکتبال؛</strong></li>\r\n\t<li><strong>جوراب ورزشی والیبال؛</strong></li>\r\n\t<li><strong>جوراب ورزشی رانینگ.</strong></li>\r\n</ul>\r\n\r\n<p>تمامی موارد هم به صورت خرید اینترنتی، هم به صورت خرید فیزیکی در بازار پوشاک ورزشی قابل دسترس هستند، اما نکته اینجاست که بهتر است برای خرید جوراب ورزشی حتما به سراغ یک برند مطمئن و معتبر بروید، تا هم از لحاظ سطح کیفی مطمئن باشید و هم به میزان هزینه&zwnj;ای که صرف می&zwnj;کنید، از بازخورد بهتری بهره ببرید.</p>\r\n\r\n<h2>نکات مهم هنگام خرید جوراب ورزشی</h2>\r\n\r\n<p>برای اینکه بتوانید خرید مطمئن&zwnj;تر و اصولی&zwnj;تری را تجربه کنید، حتما بهتر است به مواردی همچون جنس جوراب ورزشی، نوع ورزش، نوع جورابی که انتخاب می&zwnj;کنید، نوع کتانی که به پا دارید و سایز بندی جوراب دقت داشته باشید. تمامی این موارد نکات حائز اهمیتی هستند که به شما در عدم نیاز به صرف هزینه دوباره کمک خواهند کرد.</p>\r\n\r\n<p>توجه داشته باشید که امروزه خرید از برندهای معتبر نیازمند صرف هزینه بیشتری خواهد بود، از همین روی مد نظر داشتن تمام نکات و ویژگی&zwnj;ها باعث کاهش و صرفه&zwnj;جویی در هزینه&zwnj;ها می&zwnj;گردد.</p>\r\n\r\n<p>از طرفی باید گفت که مومنتوم در رابطه با تولید جوراب ورزشی، همچون دیگر پوشاک و تجهیزات ورزشی، کیفیت و دوام را در کنار استفاده از بهترین متریال&zwnj;ها قرار داده تا به عنوان یک برند داخلی بتواند کالایی مطمئن را در کنار قیمتی مقرون به صرفه به شما ورزشکاران ارائه دهد.</p>\r\n\r\n<p>برای برخورداری از اطلاعات بیشتر در زمینه&nbsp;<strong><a href=\"https://momentumgears.com/product-category/men/%d8%a7%da%a9%d8%b3%d8%b3%d9%88%d8%b1%db%8c-%d9%85%d8%b1%d8%af%d8%a7%d9%86%d9%87/%d8%b3%d8%a7%d9%82-%d9%be%d8%a7-%d9%88-%d8%ac%d9%88%d8%b1%d8%a7%d8%a8/\">خرید جوراب ورزشی مردانه</a>&nbsp;و&nbsp;<a href=\"https://momentumgears.com/product-category/women/accessories/socks-sleeve/\">خرید جوراب ورزشی زنانه</a></strong>&nbsp;می&zwnj;توانید به بخش مربوطه، در سایت ما مراجعه کنید و نمونه&zwnj;های متنوع در رنگ و طرح را مورد بررسی قرار دهید.</p>\r\n\r\n<h2>الیافی که در تولید بهترین جوراب ورزشی به کار می&zwnj;روند کدام&zwnj;اند؟</h2>\r\n\r\n<p>آگاهی از الیاف سازنده ساختار جوراب ورزشی، از مهمترین نکات در مورد خرید این کالا به حساب می&zwnj;آیند. جوراب&zwnj;ها از مواد طبیعی مانند پشم، پنبه و الیاف مصنوعی مانند نایلون و پلی استر تولید می&zwnj;شوند. یکی دیگر از الیاف فرعی که در تولید جوراب ها به کار می&zwnj;رود، پلی پروپیلن است که ماده&zwnj;ای به شدت ضد آب است. ایکس استاتیک نیز یکی از دیگر الیاف مصنوعی مورد استفاده در تولید جوراب ورزشی است.</p>\r\n\r\n<p>از ویژگی این متریال می&zwnj;توان به قابلیت ضد آب بودن و آنتی&zwnj;باکتریال بودن آن اشاره کرد. همچنین برای ایجاد قابلیت کشسانی بیشتر و مقاومت بالاتر جوراب ورزشی از الیاف اسپندکس نیز در ترکیب مواد آن استفاده می&zwnj;کنند. شناخت این مواد یکی از مهمترین مراحل در راهنمای خرید جوراب ورزشی به شمار می&zwnj;آید.</p>\r\n\r\n<h2>سخن پایانی</h2>\r\n\r\n<p>برخورداری از دانش و آگاهی در مورد جوراب ورزشی نیز مانند دیگر کالا و تجهیزات ورزشی بسیار حائز اهمیت است. داشتن این اطلاعات به ما کمک خواهد کرد تا خریدی مطمئن را تجربه کنیم. همانطور که گفتیم بسیاری از برندهای داخلی و خارجی امروزه در حال تولید و عرضه جوراب ورزشی زنانه و مردانه هستند که با باید نسبت به شناخت و خدماتی که این شرکت&zwnj;ها در اختیار ما قرار می&zwnj;دهند، یکی را انتخاب کنیم.</p>\r\n\r\n<p>در این میان مومنتوم توانسته در زمینه تولید جوراب ورزشی زنانه و مردانه در انواع مختلف، همراه با طیف وسیعی از رنگ و طرح که به سادگی هر سلیقه&zwnj;ای را در بر می&zwnj;گیرد، جایگاه خوبی را برای خود ایجاد کند. پیشنهاد می&zwnj;کنیم که اگر در صدد&nbsp;<a href=\"https://momentumgears.com/\">خرید لباس ورزشی</a>&nbsp;یا جوراب ورزشی هستید بهتر است حتما به بخش مربوطه در سایت ما مراجعه کرده و در مورد ویژگی&zwnj;های محصولات ارائه شده تحقیق کرده و خریدی با کیفیت را تجربه کنید. ممنون که با ما همراه بودید.</p>",
+        "short_description": "جوراب‌های فوتبال از مواد ضخیم‌تری برای جذب عرق و نگه داشتن ساق پا در مکان درست خود، تولید می‌شوند. برخی از جوراب ورزشی فوتبال با محافظ ساق پا تولید می‌شوند که این چندان معمول نیست. جوراب‌های فوتبال از نایلون، اکریلیک یا پارچه‌های کش‌بافت تولید خواهند شد.",
+        "price": 50000,
+        "active": true,
+        "image": "product/product_cover/socks_Xb7ooR4.jpg",
+        "datetime_created": "2025-03-01T09:54:30Z",
+        "datetime_modified": "2025-03-01T09:56:50.103Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "user": 1,
+        "title": "مانتو",
+        "description": "<h2><strong>پارچه های مختلف برای تولید انواع مانتو</strong></h2>\r\n\r\n<p>برای تولید انواع مانتو از پارچه های مختلفی مانند کتان، ابریشم، حریر، گیپور، الیاف مصنوعی، نخی، الیاف طبیعی، چرم، نخی، ویسکوز و بسیاری از پارچه های دیگر استفاده می نمایند. به طور مثال مانتو های مجلسی از پارچه های ابریشم، ساتن، گیپور، حریر و خرجکار های بسیاری تولید می&zwnj;شوند. مانتو های اسپرت بیشتر در اجناس کتان، لی و&hellip; ساخته خواهند شد.</p>\r\n\r\n<p>برای تولید مانتو های اداری و یا مانتو هایی که برای سازمان های خاصی استفاده می&zwnj;شوند از پارچه های کاملا رسمی استفاده می نمایند. به طور مثال نمی توان برای دوخت انواع مانتو اداری و یا مانتو های سازمانی از پارچه های لخت یا پارچه هایی مانند ابریشم و ساتن استفاده نمود.</p>\r\n\r\n<p>زیرا اصلا مناسب استفاده در محیط های اداری و محیط های رسمی نیستند. برای تولید مانتو های اداری و یا مانتو هایی که برای سازمان های مختلفی تولید می&zwnj;شوند از پارچه هایی استفاده می کنند که بتوان در طول روز آن ها را به تن داشت. به همین منظور شرکت&zwnj; های تولید کننده برای انواع مانتو های اداری از پارچه هایی استفاده می کنند که فرد دچار حساسیت &zwnj;های پوستی نشود و یا این که بتواند کاملاً در آن احساس راحتی داشته باشد.</p>\r\n\r\n<h2>انواع جنس پارچه&zwnj;های مانتو</h2>\r\n\r\n<p>همچنین پوشیدن مانتو در طول روز باعث ایجاد چروک هایی روی لباس می&zwnj;شود. ولی مانتو اداری با اجناس مناسب خود در برابر چروک شدن و یا دفرمه شدن مقاومت بالایی دارد و کارکنان با پوشیدن آن ها در طول روز کاملا آراسته به نظر می رسند که از موارد بسیار مهم در بازده و راندمان بالای کاری یک سازمان محسوب می شود.</p>\r\n\r\n<p>البته باید بدانید برخی از سازمان &zwnj;ها و اداره ها برای کارکنان خود مانتو هایی را برای فصول مختلف در نظر می&zwnj;گیرند. همچنین برخی از شرکت &zwnj;ها نیز برای کارکنان خود یک لباس را برا کل سال ترجیح می دهند. زیرا این افراد اکثراً در محیط&zwnj; های بسته به فعالیت می پردازند و در برابر سرما و گرمای فصل قرار نخواهند گرفت.</p>\r\n\r\n<h3>1.پارچه جین (لی)</h3>\r\n\r\n<p>جین یا لی یکی از پارچه&zwnj;های محبوب برای مانتوهای اسپرت و غیررسمی است. این پارچه به دلیل دوام بالا و مقاومت در برابر سایش، انتخابی عالی برای مانتوهایی است که استفاده روزانه دارند. مانتوهای جین در طرح&zwnj;ها و رنگ&zwnj;های مختلف عرضه می&zwnj;شوند و همواره به دلیل ظاهر مدرن و اسپرت خود مورد توجه هستند.</p>\r\n\r\n<h3>2.پارچه کرپ</h3>\r\n\r\n<p>پارچه کرپ یکی از پرطرفدارترین انواع پارچه برای مانتو و بهترین پارچه برای مانتو مجلسی است که با بافت خاص خود ظاهر شیکی به مانتو می&zwnj;بخشد. کرپ در انواع مختلفی چون کرپ حریر، کرپ کنفی، و کرپ ژرژت عرضه می&zwnj;شود. کرپ به دلیل ضخامت و ایستایی که دارد، برای مانتوهای رسمی و مجلسی انتخاب مناسبی است و ظاهر رسمی و شیکی به پوشش شما می&zwnj;دهد.</p>\r\n\r\n<h3>3.پارچه ریون</h3>\r\n\r\n<p>پارچه ریون به دلیل لطافت و کشسانی بالا، برای مانتوهای راحتی و روزمره مناسب است. این پارچه سبک و تنفس&zwnj;پذیر بوده و در رنگ&zwnj;ها و طرح&zwnj;های متنوعی موجود است. مانتوهای ریون برای فصول گرم انتخاب خوبی هستند و ظاهری غیررسمی و جذاب دارند.</p>\r\n\r\n<h3>4.پارچه حریر</h3>\r\n\r\n<p>پارچه حریر یکی از پارچه&zwnj;های بسیار نازک و خنک است که برای مانتوهای سبک و تابستانی به کار می&zwnj;رود. حریر به دلیل لطافت و شفافیت خود، ظاهر جذابی به مانتو می&zwnj;بخشد و برای روزهای گرم و مرطوب انتخاب ایده&zwnj;آلی است.</p>",
+        "short_description": "ای تولید انواع مانتو از پارچه های مختلفی مانند کتان، ابریشم، حریر، گیپور، الیاف مصنوعی، نخی، الیاف طبیعی، چرم، نخی، ویسکوز و بسیاری از پارچه های دیگر استفاده می نمایند. به طور مثال مانتو های مجلسی از پارچه های ابریشم، ساتن، گیپور، حریر و خرجکار های بسیاری تولید می‌شوند. مانتو های اسپرت بیشتر در اجناس کتان، لی و… ساخته خواهند شد.",
+        "price": 4500000,
+        "active": true,
+        "image": "product/product_cover/manto_8qnfOZe.png",
+        "datetime_created": "2025-03-01T09:56:50Z",
+        "datetime_modified": "2025-03-01T09:58:48.596Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "user": 1,
+        "title": "کفش ورزشی",
+        "description": "<h2>انواع کفش ورزشی</h2>\r\n\r\n<p>کفش های ورزشی عمدتاً بر اساس کاربری خود به انواع مختلفی تقسیم بندی می شوند:</p>\r\n\r\n<h3>خصوصیات کفش ورزشی مناسب برای دویدن</h3>\r\n\r\n<p>بخش اعظمی از تحقیقات سال های اخیر در حوزه کفش های ورزشی معطوف به تولید و بهبود کیفیت کفش های مخصوص دویدن بوده است. کفش های مخصوص رشته دو در ۳ دسته بندی مختلف قرار می گیرند:</p>\r\n\r\n<h3>۱- کفش های بالشتک دار یا اصطلاحا خنثی(cushioned or neutral shoes)</h3>\r\n\r\n<p>کفش&nbsp;های&nbsp;بالشتک&nbsp;دار&nbsp;برای آن دسته از دوندگانی طراحی شده اند که کف پای آن ها قوس زیاد دارد و بدون انعطاف است. در بخش میانی از این کفش ها فوم نرم و تک رنگی از جنس اتیلن وینیل استات (EVA) قرار می گیرد تا پشتیبان خوبی برای کف پا باشد. EVA که یک ماده سنتتیک قابل فرم دهی است خواص چگالی متغیری دارد به گونه ای که می توان میزان اثر بالشتکی آن را کمتر یا بیشتر نمود.</p>\r\n\r\n<p><img alt=\"کفش مناسب دویدن\" src=\"https://dr-rezanaderi.com/wp-content/uploads/2020/07/cushioned-or-neutral-shoes.jpg\" style=\"height:800px; width:1200px\" /></p>\r\n\r\n<h3>۲- کفش های پایدار کننده (stability shoes)</h3>\r\n\r\n<p>کفش&nbsp;های&nbsp;پایدار کننده&nbsp;برای افرادی که قوس کف پای آن ها در هنگام دویدن از بین می رود پایداری سبک تا متوسطی ایجاد می کند. به این دسته از افراد، پروناتور می گویند که باید در حین دویدن حالت قوس کف پای خود را حفظ کننددر این کفش ها در ناحیه ی قوس کف پا و گاه پاشنه دو تا سه لایه پلی اورتان (<strong>PU</strong>) خاکستری وجود دارد که هر یک دانسیته ی متفاوتی دارد تا برای کف پای صاف حمایت بیشتری فراهم کند.<img alt=\"کفش PU مناسب پیاده روی\" src=\"https://dr-rezanaderi.com/wp-content/uploads/2020/07/PU-shoes.jpg\" style=\"height:800px; width:1200px\" /></p>\r\n\r\n<p>پلی اورتان مورد استفاده در این کفش ها منجر به سنگین تر شدنشان به نسبت کفش هایی می شود که در آن ها تنها EVA به کار رفته است . ممکن است تولید کنندگان از اجزای دیگری نیز در تولید این دسته از کفش ها استفاده کنند تا میزان پایداری افزایش یابد.</p>\r\n\r\n<h3>۳- کفش های کنترل حرکت(motion control)</h3>\r\n\r\n<p>کفش&nbsp;های&nbsp;کنترل&nbsp;حرکت&nbsp;برای آن دسته از افراد طراحی شده است که مشکل صافی کف پای آن ها شدید باشد. این کفش ها می توانند بیشترین میزان پایداری را به همراه داشته باشند و برای افرادی با کف پای صاف یا افرادی که اضافه وزن دارند مناسب هستند. کفش های کنترل حرکت دارای پایدارکننده های بیشتری در لبه ی داخلی پاشنه هستند تا بیشترین کنترل را به همراه داشته باشند. بخش بیرونی کفی این کفش ها از لاستیک کربن یا لاستیک دمیده شده(که با تزریق هوا ساخته می شود) تولید می شود . کفی لاستیک کربنی از مواد سنگین تری ساخته می شود و به دلیل سختی بیشتر می تواند دوام خوبی را به کفش بدهد. لاستیک دمیده شده انعطاف پذیر و سبک تر بوده و به جای پایداری، خاصیت بالشتکی بیشتری را به همراه دارد.</p>\r\n\r\n<p><img alt=\"\" src=\"https://dr-rezanaderi.com/wp-content/uploads/2020/07/motion-control.jpg\" style=\"height:300px; width:613px\" /></p>\r\n\r\n<p>بهترین راه برای تشخیص صافی کف پا (پروناتور) یا قوس زیاد کف پا (سوپیناتور)، معاینه توسط یک متخصص است. اگر خودتان می خواهید این موضوع را تشخیص دهید بهتر است رد پای خود را پس از خروج از استخر یا حمام بررسی کنید. اگر رد پای شما پهن و تخت است، یعنی قوس پای شما کم است (پروناتور) اما اگر ناحیه میانی رد پا خالی است پس کف پای شما قوس دارد(سوپیناتور).</p>\r\n\r\n<p>برای اطلاع از روش های تست صافی کف پا روی لینک زیر کلیک کنید:</p>\r\n\r\n<p><a href=\"https://dr-rezanaderi.com/43/%da%a9%d9%81-%d9%be%d8%a7%db%8c-%d8%b5%d8%a7%d9%81.html\"><strong>روش های تشخیص صافی کف پا</strong></a></p>\r\n\r\n<p>با&nbsp;این&nbsp;که&nbsp;فهمیدن&nbsp;این&nbsp;موضوع&nbsp;که&nbsp;پای&nbsp;شما&nbsp;در&nbsp;کدام&nbsp;دسته&nbsp;از&nbsp;موارد&nbsp;بالا&nbsp;قرار&nbsp;می&nbsp;گیرد،&nbsp;اولین&nbsp;مرحله&nbsp;در&nbsp;تشخیص&nbsp;کفش&nbsp;مناسب&nbsp;است،&nbsp;اما&nbsp;باید&nbsp;بگوییم&nbsp;که&nbsp;صافی&nbsp;یا&nbsp;<a href=\"https://dr-rezanaderi.com/1687/%d8%af%d8%b1%d9%85%d8%a7%d9%86-%d9%82%d9%88%d8%b3-%da%a9%d9%81-%d9%be%d8%a7.html\">قوس&nbsp;کف&nbsp;پا</a>&nbsp;ممکن&nbsp;است&nbsp;در&nbsp;حین&nbsp;دویدن&nbsp;تغییر&nbsp;کند.&nbsp;پس&nbsp;بهتر&nbsp;است&nbsp;یک&nbsp;فرد&nbsp;متخصص&nbsp;با&nbsp;بررسی&nbsp;و&nbsp;آنالیز&nbsp;دقیق&nbsp;مشخص&nbsp;کند&nbsp;پای&nbsp;شما&nbsp;در&nbsp;حین&nbsp;دویدن&nbsp;در&nbsp;چه&nbsp;وضعیتی&nbsp;قرار&nbsp;می&nbsp;گیرد.</p>\r\n\r\n<p>فردی&nbsp;که&nbsp;در&nbsp;زمینه&nbsp;کفش&nbsp;های&nbsp;دو&nbsp;تخصص&nbsp;دارد&nbsp;به&nbsp;خوبی&nbsp;قالب&nbsp;پای&nbsp;شما&nbsp;را&nbsp;آنالیز&nbsp;کرده&nbsp;و&nbsp;در&nbsp;نهایت&nbsp;بهترین&nbsp;نوع&nbsp;کفش&nbsp;ورزشی&nbsp;را&nbsp;به&nbsp;شما&nbsp;معرفی&nbsp;خواهد&nbsp;کرد.</p>\r\n\r\n<p>کفش&nbsp;های&nbsp;دو&nbsp;باید&nbsp;به&nbsp;شکل&nbsp;دوره&nbsp;ای&nbsp;تعویض&nbsp;شوند. EVA&nbsp;مورد&nbsp;استفاده&nbsp;در&nbsp;این&nbsp;کفش&nbsp;ها&nbsp;معمولا&nbsp;پس&nbsp;از حدود&nbsp;۱۹۰&nbsp;کیلومتر&nbsp;دویدن&nbsp;با&nbsp;آسیب&nbsp;های&nbsp;ساختاری&nbsp;مواجه&nbsp;می&nbsp;شوند.&nbsp;با&nbsp;رسیدن&nbsp;به&nbsp;۸۰۰&nbsp;کیلومتر،&nbsp;کفش&nbsp;ورزشی&nbsp;حدود&nbsp;۴۵&nbsp;درصد&nbsp;از&nbsp;قدرت&nbsp;جذب&nbsp;شوک&nbsp;و&nbsp;فشار&nbsp;را&nbsp;از&nbsp;دست&nbsp;می&nbsp;دهد.</p>",
+        "short_description": "فردی که در زمینه کفش های دو تخصص دارد به خوبی قالب پای شما را آنالیز کرده و در نهایت بهترین نوع کفش ورزشی را به شما معرفی خواهد کرد.\r\n\r\nکفش های دو باید به شکل دوره ای تعویض شوند. EVA مورد استفاده در این کفش ها معمولا پس از حدود ۱۹۰ کیلومتر دویدن با آسیب های ساختاری مواجه می شوند. با رسیدن به ۸۰۰ کیلومتر، کفش ورزشی حدود ۴۵ درصد از قدرت جذب شوک و فشار را از دست می دهد.",
+        "price": 250000,
+        "active": true,
+        "image": "product/product_cover/shoes_borazjan_DmGYhHb_D02lYeZ.png",
+        "datetime_created": "2025-03-01T09:58:48Z",
+        "datetime_modified": "2025-03-01T10:00:38.013Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+        "user": 1,
+        "title": "ماشین اصلاح مردانه",
+        "description": "<p>.</p>\r\n\r\n<p><img alt=\"\" src=\"https://baranoshop.com/wp-content/uploads/2021/04/188.jpg\" style=\"height:500px; width:1000px\" /></p>\r\n\r\n<h2>تقسیم بندی ریش تراش ها</h2>\r\n\r\n<p>ریش تراش ها به طور کلی به دو دسته کلی تقسیم می شوند:</p>\r\n\r\n<h3>ماشین اصلاح سر و صورت</h3>\r\n\r\n<p>ریش تراش</p>\r\n\r\n<p>هنگام خرید ماشین اصلاح، شما باید تعیین کنید که آیا هدف شما از کوتاه کردن ریش چیست؟ اندازه کارایی ریش تراش ها از نیم میلی متر شروع می شود. بنابراین، بی دلیل نیست که چنین ریش تراش هایی برای اصلاح مو استفاده می&zwnj;شوند. بنابراین، نباید انتظار پوست بدون مو با ماشین اصلاح را داشته باشید. اصلاح کننده های صورت، از لحاظ کاربرد متفاوت هستند. با استفاده از این نوع ماشین اصلاح می توانید موهای خود را اصلاح کنید. واضح است، که استفاده از ریش تراش صورت برای تراشیدن مو نتیجه مطلوبی نخواهد داشت.</p>\r\n\r\n<p>ابزار و تجهیزات مختلفی برای کوتاهی مو وجود دارد. و اگر آرایشگری را حرفه ای دنبال می کنید، تهیه ابزار مناسب یکی از الزامات شغل شما است.</p>\r\n\r\n<p>در میان ریش تراش ها برای دقت و ظرافت، کوتاهی و حالت دادن به موها، ریش تراش هایی با عملکردهای مختلف وجود دارد. از جمله آن ها دستگاه صفر زن با نزدیکترین اندازه به پوست می باشد. خط زن ها ماشین اصلاح هایی هستند که برای کارهای دقیق طراحی می شوند. برای تراشیدن سر نمی توانید از خط زن استفاده کنید. برای راحتی کار، باید از صفرزن ماشین اصلاح با توجه به ویژگی ها و کاربرد ماشین اصلاح استفاده کنید.</p>\r\n\r\n<h2>خرید خط زن</h2>\r\n\r\n<p>برای خرید بهترین خط زن و ماشین اصلاح، باید به نکات زیر توجه داشته باشید.</p>\r\n\r\n<p>نوع تیغه چرخان یا فویلی</p>\r\n\r\n<p>قدرت موتور ریش تراش</p>\r\n\r\n<p>وزن دستگاه شارژ</p>\r\n\r\n<p>منبع تغذیه</p>\r\n\r\n<p>ضد آب بودن ریش تراش</p>\r\n\r\n<p>قیمت و &hellip;</p>\r\n\r\n<p>ریش تراش های حرفه ای و ویژه موهای سر باید دارای یک موتور و باتری قدرتمند باشند. زیرا موهای سر ضخیم تر و متراکم تر از صورت و بدن است.</p>\r\n\r\n<p><img alt=\"\" src=\"https://baranoshop.com/wp-content/uploads/2021/04/unnamed.jpg\" style=\"height:707px; width:1000px\" /></p>\r\n\r\n<h2>ماشین حجم زن</h2>\r\n\r\n<p>از زمان ساخت اولین ریش تراش، انواع آن روز به روز بیشتر می شود. کارایی، مواد، کیفیت و قیمت کاملاً متفاوت از این جمله هستند.</p>\r\n\r\n<p>حجم زن ماشین اصلاح با کیفیت بالا مشتری را جذب می کند. دستگاه خاصی برای این ویژگی به ندرت در بازار دیده می شود.</p>\r\n\r\n<p>کافی است یک محصول دارای تیغه مورد نیاز و فناوری برش مستقیم برای این کار باشد. تا به راحتی در میان چنین محصولات جدیدی وارد بازار شود.</p>\r\n\r\n<h3>نکاتی که باید هنگام خرید ماشین اصلاح در نظر بگیرید</h3>\r\n\r\n<p>1- دارای یک شارژ طولانی یا دو باتری قابل شارژ باشد. بنابراین در هنگام کار دیگر نگران کمبود شارژ نخواهید بود.</p>\r\n\r\n<p>2- ماشین اصلاح خوب از تیغه های تیز برخوردار است. تا کار برش را به خوبی و سریع انجام دهد.</p>\r\n\r\n<p>3- شانه های پلاستیکی در اندازه های مختلف داشته باشد. تا بتواند به دستگاه متصل شود.</p>\r\n\r\n<p>4- تا حد ممکن کم صدا باشد.</p>\r\n\r\n<p>5- محور انتقال نیروی فلزی بهتر از پلاستیکی است.</p>\r\n\r\n<h3>انواع باتری های سر ماشین اصلاح</h3>\r\n\r\n<p>در مجموع دو نوع باتری برای این دستگاه ها وجود دارد:</p>\r\n\r\n<p>باتری لیتیوم (شارژ سریع در کمتر از 2 ساعت)</p>\r\n\r\n<p>باتری نیکل (شارژ طولانی تا 8 ساعت)</p>\r\n\r\n<p>جالب است بدانید که قیمت هر دو نوع باتری تقریباً یکسان است.&nbsp;<strong>اگر قیمت هر دو باتری یکسان است، چرا همه دستگاه ها از باتری های لیتیوم استفاده نمی کنند؟</strong>دلیل تفاوت قیمت این است که باتری های لیتیوم برای شارژ به مدارهای پیشرفته تری نیاز دارند. و تولید مدارهای پیشرفته تر تفاوت قیمت را ایجاد می کند.</p>\r\n\r\n<h3>1- داشتن Accu-blade در ماشین اصلاح</h3>\r\n\r\n<p>Equio Blade یک فناوری جدید در ماشین اصلاح است که محاسبات بسیار دقیقی را روی زاویه دندانهای تیغه برش انجام می دهد و موها را بهتر و سریعتر ترمیم می کند. پرومکس از این فناوری جدید در تولیدات خود استفاده کرد. به عنوان مثال: 1944AB ، 1921AB ، 1472AB ، 1536AB</p>\r\n\r\n<p><img alt=\"\" src=\"https://baranoshop.com/wp-content/uploads/2021/04/0662185fbb6c1f539489cc59590b7ed3.jpg\" style=\"height:569px; width:833px\" /></p>\r\n\r\n<h3>2- باتری های قدرتمند در ماشین اصلاح</h3>\r\n\r\n<p>همه ریش تراش های Promex دارای باتری های قدرتمندی هستند که توانایی نگه داشتن شارژ را برای مدت طولانی دارند. و همچنین با کاهش درصد شارژ دستگاه، قدرت اصلی خود را حفظ می کنند.</p>\r\n\r\n<h3>3- دستگاه های منحصر به فرد</h3>\r\n\r\n<p>محور چرخش موتور فلزی است و از آنجا که از پلاستیک ساخته نشده است، احتمال شکستن آن وجود ندارد.</p>\r\n\r\n<p>تیغ سرامیکی: تیغ سرامیکی تیزتر از، تیغ استیل است. اما، از طرف دیگر به مراقبت بیشتری نیاز دارد. زیرا به دلیل شکنندگی آسیب پذیرتر است.</p>\r\n\r\n<h3>4- پوشش هر دو گروه مصرف کننده خانگی و حرفه ای</h3>\r\n\r\n<p>در حال حاضر پرومکس پوشش کاملی از محصولات هر دو گروه دارد. مراقب باشید، محصولات شخصی (خانگی) را برای استفاده حرفه ای (داخلی) توصیه نمی کنیم، زیرا محصولات خانگی رضایت مصرف کننده حرفه ای را ندارند.</p>\r\n\r\n<h3>5- وجود طراحی ارگونومیک ماشین اصلاح</h3>\r\n\r\n<p>طراحی ارگونومیک Promex باعث سهولت استفاده و حمل بهتر دستگاه می&zwnj;شود.</p>\r\n\r\n<h3>6- کیفیت و قیمت</h3>\r\n\r\n<p>به گفته پرومکس، &ldquo;ارائه محصولات با کیفیت بالا و قیمت مناسب&rdquo; فلسفه اصلی پرومکس است. پرومکس همیشه سعی در ارائه محصولات با کیفیت و حرفه ای با قیمت های مقرون به صرفه داشته است.</p>\r\n\r\n<h3>7- تنوع در مدل</h3>\r\n\r\n<p>پرومکس یکی از اولین مارک هایی است، که دستگاه های اصلاح با مدل های مختلف را به بازار عرضه می کند.</p>\r\n\r\n<p>تیغه های ریش تراش شامل دو مدل تیغ است:</p>\r\n\r\n<p>تیغه ثابت (تیغه پایین)</p>\r\n\r\n<p>تیغه متحرک (تیغه جلویی)</p>\r\n\r\n<p>روغن کاری منظم تیغه ها برای جلوگیری از کند شدن آنها و ضد عفونی و حرکت تیغه را آسان می کند.</p>\r\n\r\n<h2>تفاوت تیغه های سرامیکی و استیل</h2>\r\n\r\n<p>همه سر تراش ها دارای یک تیغه ثابت (تیغه پایین) از فولاد هستند، اما بعضی از آنها دارای یک تیغه سرامیکی متحرک هستند. مزیت تیغه های سرامیکی نسبت به تیغه های استیل این است که تیغه سرامیکی تیزتر هستند و سرعت آنها کاهش نمی یابد. اما شکننده هستند.</p>\r\n\r\n<p>بهترین انواع ریش تراش صورت و بدن خط زن، سری زنانه حجم زن (موبر)، ماشین اصلاح برای سایه زدن یا تغذیه، با مارک های معتبر مانند Wall ، Moser ، Jimmy ، Philips ، Panasonic می باشد که برای خرید با قیمت مناسب و ارزان، تضمین شده شرکت به<a href=\"https://baranoshop.com/\">&nbsp;بارانوشاپ</a>&nbsp;مراجعه کنید.</p>",
+        "short_description": "تفاوت تیغه های سرامیکی و استیل\r\nهمه سر تراش ها دارای یک تیغه ثابت (تیغه پایین) از فولاد هستند، اما بعضی از آنها دارای یک تیغه سرامیکی متحرک هستند. مزیت تیغه های سرامیکی نسبت به تیغه های استیل این است که تیغه سرامیکی تیزتر هستند و سرعت آنها کاهش نمی یابد. اما شکننده هستند.",
+        "price": 1500000,
+        "active": true,
+        "image": "product/product_cover/saver.png",
+        "datetime_created": "2025-03-01T10:01:41Z",
+        "datetime_modified": "2025-03-01T10:04:22.637Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+        "user": 1,
+        "title": "قهوه فوری گوددی goodday",
+        "description": "<h2>برند و شرکت گود دی good day</h2>\r\n\r\n<p><strong>شرکت گود دی</strong>&nbsp;یکی از برترین تولید کنندگان انواع&nbsp;<a href=\"https://fa.wikipedia.org/wiki/%D9%82%D9%87%D9%88%D9%87\" rel=\"noopener\" target=\"_blank\">قهوه</a>&nbsp;های فوری و کاپوچینو و شکلات داغ&zwnj;های فوری و بسیار با کیفیت می باشد و &nbsp;در ایران هم از محصولات آن طرفداران زیادی دارد</p>\r\n\r\n<p><strong>برند&nbsp;</strong><strong>Good Day</strong>&nbsp;( گود دی ) زیرمجموعه ای از شرکت اندونزیایی KAPAL API می باشد که محصولات آن از قهوه اندونزیایی و با طعم قهوه ایتالیایی تهیه شده است.</p>\r\n\r\n<p><strong>محصولات گود دی</strong>&nbsp;تهیه شده از مرغوب ترین دانه های قهوه و پردازش شده توسط ماشین آلات مدرن برای تولید یک قهوه با کیفیت بالا و عطر و طعم دلپذیر می باشند.</p>\r\n\r\n<p>از سال 2001 در کشور اندونزی ،&nbsp;<strong>شرکت گود دی</strong>&nbsp;با تمرکز بر روی قهوه های فوری سه در یک در طعم های خاص و متفاوت موکا ، یخی ، کارامل و شکلات ، فعالیت تجاری خود را آغاز کرد.</p>\r\n\r\n<p>این شرکت با فرمول&nbsp;<strong>کاپوچینو گود دی</strong>&nbsp;در آسیا و به خصوص در ایران محبوب دوستداران قهوه شد.</p>\r\n\r\n<p>مقاله پیشنهادی:&nbsp;<a href=\"https://www.surpriseshoping.com/%d8%b4%d8%b1%da%a9%d8%aa-%d9%88-%d8%a8%d8%b1%d9%86%d8%af-bebeto/\" rel=\"noopener\" target=\"_blank\">تاریخچه شرکت وبرند ببتو</a></p>\r\n\r\n<p><img alt=\"خرید کاپوچینو گود دی GOOD DAY بسته ۳۰ عددی -سورپرایزشاپینگ\" src=\"https://www.surpriseshoping.com/wp-content/uploads/2021/05/621.jpg\" style=\"height:650px; width:650px\" /></p>\r\n\r\n<p>برند و شرکت گود دی good day</p>\r\n\r\n<h2>نحوه خرید محصولات گوددی good day</h2>\r\n\r\n<p>انواعمحصولات مختلف&nbsp;<strong>گود دی</strong>&nbsp; را می توانید درسایت&nbsp; سورپرایزشاپینگ ماهده نمایید و کاپوچینوی اورجینال&nbsp;<strong>گوددی</strong>&nbsp;را در مدل های گوددی مانند Goodday اصلی 30 تایی، قهوه good day کربین نات، کافه میکس Goodday چوکوچینو و گوددی کافور موکاچینو سفارش دهید. میکس قهوه روز خوب کاکوچینو، میکس قهوه روز وانیل لاته، میکس قهوه .</p>\r\n\r\n<p><strong>کاپوچینو چیست؟</strong></p>\r\n\r\n<p>کاپوچینو یک نوشیدنی گرم کافئین&zwnj;دار است که از ترکیب قهوه اسپرسو و فوم شیر به دست می&zwnj;آید. برخلاف قهوه و به علت ترکیب شدن با شیر طعم این نوشیدنی شیرین است. در مدل&zwnj;های دست&zwnj;ساز میزان شیرینی آن قابل کنترل است و می&zwnj;توان بدون شکر یا با شکر آن را درست کرد.</p>\r\n\r\n<p>نحوه دیگر درست کردن کاپوچینو استفاده از پودرهای آماده است. با&nbsp;<strong>خرید کاپوچینو Goodday</strong>، پودر ترکیب شده با شکر را در اختیار دارید و طعم آن شیرین است و نیازی به اضافه کردن شکر نیست. این محصول به&zwnj;خاطر طعم و بافت بی&zwnj;نظیر خود طرفداران بسیاری دارد</p>\r\n\r\n<p><strong>کاپوچینو&nbsp;</strong><strong>Goodday</strong><strong>&nbsp;محصول کدام کشور است؟</strong></p>\r\n\r\n<p><strong>کاپوچینو&nbsp;</strong><strong>Goodday</strong>&nbsp;و دیگر محصولات گوددی ساخت کشور اندونزی است. این برند در سال ۲۰۰۱ توسط فردی به نام سانتوس جایا آبادی راه&zwnj;اندازی شد و رفته رفته با پیشرفت کاری خود به یکی از برندهای شناخته شده و برتر در زمینه تولید انواع کاپوچینو تبدیل شد. محصولات برند Goodday به صورت وارداتی از اندونزی وارد کشور شده و به فروش می&zwnj;رسند. Goodday Good Day زیرمجموعه از محصولات شرکت&nbsp;<a href=\"https://kapalapiglobal.com/\">KAPAL API</a>&nbsp;است.</p>\r\n\r\n<p>یکی از 6 نوع مخلوط قهوه، Moccaccino Gaudi 3 in 1 &ldquo;Bash Coffee Blend di Moccaccino&rdquo; است. موکا یا موکاچینو نوعی نوشیدنی قهوه شامل اسپرسو، شیر و شکلات است که طعم شیرین قهوه شکلاتی دارد و برای انسان مناسب است. اگر قهوه تلخ دوست دارید بهترین گزینه است، این محصول طعم فوق العاده ای برای این نوشیدنی ها دارد.</p>\r\n\r\n<p><img alt=\"قهوه فوری بلک گود دی good dayبسته 40تایی -سورپرایز شاپینگ\" src=\"https://www.surpriseshoping.com/wp-content/uploads/2023/01/gallerye98448f35e00fe32f55b789f0871126f1.jpg\" style=\"height:1000px; width:1000px\" /></p>\r\n\r\n<p>برند و شرکت گود دی good day</p>\r\n\r\n<p><strong>کاپوچینو گود دی محصول کدام کشور است؟</strong></p>\r\n\r\n<p>کاپوچینو Goodday تاریخ جدید و کافی میکس Goodday ارزان ساخت کشور اندونزی می باشد.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>راهنمای خرید کاپوچینو&nbsp;</strong><strong>Good Day</strong></p>\r\n\r\n<p>همانطور که همه دوست داریم ، نوشیدن یک قهوه گرم و خوشمزه در روزهای بارانی پاییز و روزهای سرد سال بسیار دلنشین می باشد . یکی از انواع نوشیدنی&zwnj;های گرم کاپوچینو است. کاپوچینو را می&zwnj;توانید در یک کافه میل کنید و یا اینکه با خرید پودر&nbsp;<strong>کاپوچینو Good day</strong>&nbsp;خودتان آن را در خانه و به آسان&zwnj;ترین شکل ممکن درست کنید و از نوشیدن آن لذت ببرید.</p>\r\n\r\n<p>به حتم امکان هر روز رفتن به کافه و یا تهیه آن در زمان کاری وجود ندارد، اما با تهیه پودرهای آماده این محصول می&zwnj;توانید به راحتی در هر زمان که خواستید، یک لیوان کاپوچینوی گرم و شیرین میل کنید.</p>\r\n\r\n<p><strong>نکات مهم در هنگام خرید کاپوچینو</strong></p>\r\n\r\n<p>در هنگام خرید کاپوچینو برای تشخیص کاپوچینو&nbsp;<strong>Good day</strong>&nbsp;اصل و تقلبی لازم است به کشور تولید کننده، تاریخ تولید و انقضا و سلامت کالا دقت کنید. محصولی که خریداری می&zwnj;کنید باید استانداردهای لازم به عنوان یک ماده خوراکی را کسب کند. در صورت داشتن گواهی&zwnj;نامه&zwnj;های لازم، علامت گواهی روی بسته&zwnj;بندی&zwnj;ها درج می&zwnj;شود.</p>\r\n\r\n<p>همچنین لازم است به تاریخ مصرف محصول دقت شود. بنابراین حتما هنگام خرید تاریخ تولید و انقضای آن را چک کنید و مطمئن شوید که برای مصرف شما زمان کافی وجود دارد. نکته دیگر که می&zwnj;تواند در هنگام خرید&nbsp;<strong>Good day</strong>&nbsp;می&zwnj;تواند مورد توجه قرار گیرد، قیمت است. با بررسی قیمت&zwnj;ها در سایت&zwnj;های مختلف شما می&zwnj;توانید محصول را با قیمت پایین&zwnj;تری خریداری کنید.</p>\r\n\r\n<p><strong>کاپوچینو Good day</strong>&nbsp;اصلی ساخت کشور اندونزی است. این محصول توسط کشور دیگری تولید نمی شود و نمونه های دیگر به عنوان تقلبی هستند. بارکد محصول نیز گواه بر این موضوع است. سه رقم ابتدایی بارکد کاپوچینو Goodday اصل، 899 می باشد که کشور تولید کننده ( اندونزی ) می باشد. به رنگ ساشه های Goodday نیز توجه کنید. رنگ های بکار رفته در نوع اورجینال کاملا زنده و حتی تصاویر دانه قهوه نیز بر روی آن مشخص است ولی در نوع تقلبی Goodday کاپوچینو، بصورت کمرنگ و روشن در آمده است.</p>\r\n\r\n<p><img alt=\"کاپوچینو رژیمی گود دی بدون شکر 20عددی -سورپرایزشاپینگ\" src=\"https://www.surpriseshoping.com/wp-content/uploads/2023/01/eebde01ce656e79c0457f1239b02f41c46f45614.jpg\" style=\"height:1000px; width:1000px\" /></p>\r\n\r\n<p>برند و شرکت گود دی good day</p>\r\n\r\n<p><strong>مواد تشکیل دهنده&nbsp;</strong><strong>Goodday</strong><strong>&nbsp;کاپوچینو</strong></p>\r\n\r\n<p>یکی از مواردی که در هنگام خرید هر ماده خوراکی لازم است به آن توجه کنیم، مواد تشکیل دهنده آن است. ک<strong>اپوچینو گود دی</strong>&nbsp;از ترکیب مواد زیر تشکیل شده است.</p>\r\n\r\n<p>پودر کرم</p>\r\n\r\n<p>&nbsp;شکر</p>\r\n\r\n<p>پودر قهوه محلول فوری</p>\r\n\r\n<p>پودر کاکائو</p>\r\n\r\n<p>اسانس کاپوچینو</p>\r\n\r\n<p>قند خرما</p>\r\n\r\n<p>شیرین کننده شاکاروز</p>\r\n\r\n<p>آسه سولفام K</p>\r\n\r\n<p>ارزش غذایی هر شاسه از این نوشیدنی نیز به شرح زیر است.</p>\r\n\r\n<p>۱۱۰ کالری انرژی برای هر شاسه کاپوچینو</p>\r\n\r\n<p>۱۵ گرم قند</p>\r\n\r\n<p>۲.۵ گرم چربی</p>\r\n\r\n<p>فاقد نمک و اسید چرب ترانس</p>\r\n\r\n<p>شما می توانید از باکس زیر&nbsp;<a href=\"https://www.surpriseshoping.com/\">سایت سورپرایزشاپینگ</a>&nbsp;انواع محصولات گود دی که باقیمت بسیارعالی و مقرون بصرفه عرضه می شود را تهیه نمایید.</p>",
+        "short_description": "راهنمای خرید کاپوچینو Good Day\r\n\r\nهمانطور که همه دوست داریم ، نوشیدن یک قهوه گرم و خوشمزه در روزهای بارانی پاییز و روزهای سرد سال بسیار دلنشین می باشد . یکی از انواع نوشیدنی‌های گرم کاپوچینو است. کاپوچینو را می‌توانید در یک کافه میل کنید و یا اینکه با خرید پودر کاپوچینو Good day خودتان آن را در خانه و به آسان‌ترین شکل ممکن درست کنید و از نوشیدن آن لذت ببرید.",
+        "price": 160000,
+        "active": true,
+        "image": "product/product_cover/goodday.jpeg",
+        "datetime_created": "2025-03-01T10:06:53Z",
+        "datetime_modified": "2025-03-01T10:09:53.925Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+        "user": 1,
+        "title": "آیفون 16",
+        "description": "<h2>حاشیه&zwnj;های آیفون ۱۶ پرو تا ۳۳درصد کاهش می&zwnj;یابد!</h2>\r\n\r\n<p>هر دو گوشی آیفون ۲۰۲۴ در ۹ سپتامبر یعنی همین دوشنبه ۱۹ شهریور رونمایی خواهند شد و طبق خبر لو رفته، حاشیه&zwnj;های گوشی پرو مکس ۱.۱۵ میلی متر است. Samsung Display گفته که دارد روی محصولی کار می&zwnj;کند که از دوربین زیر نمایشگر پشتیبانی می&zwnj;کند و تمامی حاشیه&zwnj;های گوشی را برمی&zwnj;دارد. امسال اپل نیز از همین تکنولوژی به نام Border Reduction Structure استفاده کرد تا حاشیه&zwnj;های گوشی را در محصولات گران&zwnj; خود استفاده کند.</p>\r\n\r\n<p><img alt=\"حاشیه گوشی های آیفون ۱۶ پرو و پرومکس کاهش پیدا میکند\" src=\"https://www.technolife.ir/wp-content/uploads/2024/08/Apple-will-reduce-the-size-of-the-iPhone-16-Pro-bezels-by-33-says-insider.jpg\" style=\"height:675px; width:1200px\" /></p>\r\n\r\n<p>در طی دو سال گذشته، سایز حاشیه&zwnj;های نسخه&zwnj;های پرو به طرز چشمگیری کاهش پیدا کرد. این کار اولین بار در آیفون ۱۴ پرو با حاشیه ۳.۵ میلی متری شروع شد و به آیفون ۱۵ پرو با ۲ میلی متر حاشیه رسید. اگر شایعات درست باشند، در&nbsp;<a href=\"https://www.technolife.ir/product-55555/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%A7%D9%BE%D9%84-%D9%85%D8%AF%D9%84-iphone-16-pro-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-512-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D8%B1%D9%85-8-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA\" rel=\"noopener\" target=\"_blank\">آیفون ۱۶ پرو</a>&nbsp;ما انتظار حاشیه&zwnj;هایی بین ۱.۳ میلی متر تا ۱.۴ میلی متر را داریم.</p>\r\n\r\n<p>در حالی که این کاهش حاشیه برای کاربران آیفون جذاب و راضی&zwnj;کننده است، باید گفت که حاشیه در این گوشی&zwnj;ها نقش&zwnj;های مهمی دارد. مثلا این&zwnj;که، از صفحه نمایش در برابر لمس شدن&zwnj;های ناخواسته مراقبت می&zwnj;کند.</p>\r\n\r\n<p>با این&zwnj;که کاهش حاشیه&zwnj;ها باعث زیبایی بصری بیشتر آیفون ۱۶ پرو و پرو مکس می&zwnj;شود، اما احتمال باز کردن ناخواسته برنامه&zwnj;ها را بالا می&zwnj;برد.</p>\r\n\r\n<p><strong>آپدیت 3 شهریور</strong></p>\r\n\r\n<h2>۱۰ سپتامبر (۲۰ شهریور) زمان احتمالی رونمایی از آیفون 16!</h2>\r\n\r\n<p>طبق گزارشات مارک گورمان در نشریه Bloomsberg که نشریه قابل استنادی است، اپل تاریخ ۱۰ سپتامبر را برای رونمایی از سری آیفون ۱۶ انتخاب کرده است. در کنار این سری گوشی، شاهد رونمایی از نسل جدید ساعت و ایرپاد نیز خواهیم بود.</p>\r\n\r\n<p><img alt=\"رونمایی آیفون ۱۶ و دیگر محصولات اپل در ۲۰ شهریور\" src=\"https://www.technolife.ir/wp-content/uploads/2024/08/apple-event-675x450.jpg\" style=\"height:450px; width:675px\" /></p>\r\n\r\n<p>اگر به&zwnj;طور قطع این رویداد در تاریخ ۱۰ سپتامبر رخ دهد، از ۲۰ سپتامبر، این محصولات برای فروش قرار خواهند گرفت. این را در نظر داشته باشید که هنوز خود اپل به طور قطع بیانیه&zwnj;ای نداده و حتی نسبت به این گزارش، نظری هم نداده است.</p>\r\n\r\n<p>آیفون ۱۶ یک کپچر باتن جدید خواهد گرفت و دوربین&zwnj;ها ارتقا خواهند یافت. تراشه نیز همانطور که انتظار داریم متفاوت خواهد بود و حاشیه&zwnj;های نمایشگر باریکتر خواهند شد. همانطور که انتظار داریم، محصولات جدید به هوش مصنوعی اپل نیز مجهز هستند.</p>\r\n\r\n<p>اپل واچ X یا سری ۱۰ اپل واچ، نمایشگرهای بزرگتری خواهند داشت؛ در حالی&zwnj;که به&zwnj;طور کلی باریکتر خواهند شد. ایرپاد ساده نیز در دو مدل می&zwnj;آید. در یکی از این دو مدل قابلیت ANC نیز استفاده شده که می&zwnj;توان گفت، این اولین بار است یک نسخه غیر پرو این قابلیت را دارد.</p>\r\n\r\n<p><strong>آپدیت 27 مرداد</strong></p>\r\n\r\n<h2>در تلاش برای پیدا کردن راز چهارمین رنگ آیفون 16 پرومکس!</h2>\r\n\r\n<p>اگر توجه کرده باشید، اپل برای سری آیفون 15 تلاش کرد تا رنگ جدیدی را راهی بازار کند. طبق این تصمیم کمپانی اپل، گوشی&zwnj;های آیفون 15 پرو و آیفون پرو مکس را با رنگ آبی خاصی به دست کاربرانش برساند. در ارتباط با سری آیفون 16 هم داستان از این قرار است که طبق عکسی که منتشر شده، احتمالا آیفون 16 پرومکس با رنگ&zwnj;های سفید مشکی، نقره&zwnj;ای و مسی (قهوه&zwnj;ای) به جهان معرفی شود.</p>\r\n\r\n<p><img alt=\"رنگ بندی آیفون 16 پرومکس\" src=\"https://www.technolife.ir/wp-content/uploads/2024/08/%D8%A7%DB%8C%D9%81%D9%88%D9%86-16-%D9%BE%D8%B1%D9%88%D9%85%DA%A9%D8%B3.jpg\" style=\"height:900px; width:1600px\" /></p>\r\n\r\n<p><strong>آپدیت 13 مرداد</strong></p>\r\n\r\n<p>اپل آیفون 16 را در ماه سپتامبر عرضه می&zwnj;کند و طبق شایعات جدیدی که از این محصولات به بیرون درز پیدا کرده ظرفیت باتری آیفون 16 پرو و ​​آیفون 16 پرو مکس فاش شده است.&nbsp;طبق این شایعات مشخص شده که آیفون 16 پرو باتری با ظرفیت 3577 میلی آمپر ساعتی دارد که بیش از 9 درصد بزرگتر از باتری آیفون 15 پرو 3274 میلی آمپر ساعتی خواهد بود.</p>\r\n\r\n<p><img alt=\"ظرفیت باتری ایفون 16\" src=\"https://www.technolife.ir/wp-content/uploads/2024/08/iphone16-battery.jpg\" style=\"height:799px; width:1200px\" /></p>\r\n\r\n<p>افزایش درصد باتری زیاد نیست؛ اما بد نیست و خبر از این می&zwnj;دهد که اپل در حال ارتقا و پیشرفت در باتری گوشی&zwnj;ها است. اگر این افزایش&zwnj;های کوچک در ظرفیت فیزیکی با بهبودهای احتمالی در چیپست و کارایی پنل نمایشگر ترکیب شود ممکن است منجر به افزایش طول عمر در مدل&zwnj;های آینده آیفون شود. طبق شایعات آیفون 16 پرو و ​​آیفون 16 پرو مکس هر دو با پشتیبانی از شارژ بی سیم 40 واتی و 20 واتی MagSafe وارد بازار می شوند.</p>\r\n\r\n<p><strong>آپدیت 10 مرداد</strong></p>\r\n\r\n<h2>رنگ بندی آیفون 16 لو رفت!</h2>\r\n\r\n<p>آخرین تایید&zwnj;های کمپانی سانی دیکسون نشان می&zwnj;دهد که آیفون 16 در&nbsp;<strong>5 رنگ مختلف</strong>&nbsp;راهی بازار خواهد شد. عکس منتشر شده نشان می&zwnj;دهد که آیفون 16 در 5 رنگ آبی، سبز، مشکی، صورتی و سفید تولید می&zwnj;شود. برعکس آیفون 15 به احتمال فراوان همینطور که در عکس منتشر شده به نظر می&zwnj;آید، آیفون 16 قرار است روکشی براق روی بدنه پشتی داشته باشد. در کنار رنگ بدنه، جایگاه دکمه&zwnj;ها روی لبه سمت راستی هم از همین رندرهای بیرون آمده، مشخص است.</p>\r\n\r\n<p><img alt=\"\" src=\"https://www.technolife.ir/wp-content/uploads/2024/07/%D8%B1%D9%86%DA%AF-%D8%A8%D9%86%D8%AF%DB%8C-%D8%A7%DB%8C%D9%81%D9%88%D9%86-16.jpg\" style=\"height:900px; width:1600px\" /></p>\r\n\r\n<h2>&nbsp;</h2>",
+        "short_description": "این آیفون خوبی هست.",
+        "price": 130000000,
+        "active": true,
+        "image": "product/product_cover/ایفون-16-پرومکس-1536x864.jpg",
+        "datetime_created": "2025-03-01T10:12:20Z",
+        "datetime_modified": "2025-03-01T10:13:19.735Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+        "user": 1,
+        "title": "ساعت هوشمند سامسونگ",
+        "description": "<h2>بهترین ساعت های هوشمند سامسونگ چه مدل&zwnj;هایی هستند؟</h2>\r\n\r\n<p>با مطالعه این مقاله می&zwnj;توانید با انواع مختلفی از بهترین اسمارت واچ سامسونگ آشنا شوید. با توجه به اینکه برند سامسونگ در عرصه تولید بهترین ساعت&zwnj;های هوشمند جهان یکه&zwnj;تازی می&zwnj;کند، پیدا کردن بهترین گلکسی واچ سامسونگ در بازار ایران مانند سایر بازارهای جهانی به&zwnj;هیچ عنوان سخت نخواهد بود. معمولا هر ساعت در دو نسخه متفاوت عرضه می&zwnj;شود. تغییر قطر صفحه نمایش عامل ایجاد نسخه&zwnj;های متفاوت بهترین گلکسی واچ سامسونگ است. از فواید این تنوع اندازه می&zwnj;توان به رضایت بیشتر کاربران جهت انتخاب گلکسی واچ متناسب با مچ دست اشاره کرد. درواقع هر کاربر بسته به اندازه مچ دست خود می&zwnj;تواند نسبت به انتخاب نسخه کوچک یا بزرگ&zwnj;تر اقدام کند.</p>\r\n\r\n<h3>گلکسی واچ اولترا: بهترین ساعت سامسونگ برای هرکاری : ورزش، مسیریابی، مکالمه، نصب اپلیکیشن</h3>\r\n\r\n<p><img alt=\"گلکسی واچ اولترا بهترین ساعت سامسونگ\" src=\"https://www.technolife.ir/wp-content/uploads/2023/08/%DA%AF%D9%84%DA%A9%D8%B3%DB%8C-%D9%88%D8%A7%DA%86-%D8%A7%D9%88%D9%84%D8%AA%D8%B1%D8%A7-%D8%B9%DA%A9%D8%B3.jpg\" style=\"height:900px; width:1600px\" /></p>\r\n\r\n<p>دنیای ساعت های هوشمند سامسونگ در رونمایی جولای 2024 با معرفی&nbsp;<a href=\"https://www.technolife.ir/product-64562/%D8%B3%D8%A7%D8%B9%D8%AA-%D9%87%D9%88%D8%B4%D9%85%D9%86%D8%AF-%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%DA%AF-%D9%85%D8%AF%D9%84-galaxy-watch-ultra-lte-(sm-l705f)-47mm-%D8%A8%D9%86%D8%AF-%D9%85%D8%A7%D8%B1%DB%8C%D9%86\" rel=\"noopener\" target=\"_blank\">Galaxy watch ultra</a>&nbsp;تغییر کرد. این ساعت هوشمند سامسونگ با بدنه سخت و فریم تیتانیومی که دارد به گفته کمپانی سازنده بهترین گزینه برای کوهنوردها، صخره نوردها، شناگرها و تمامی افراد مایل به&nbsp;<a href=\"https://www.technolife.ir/product/list/30_162_330/%D8%B3%D8%A7%D8%B9%D8%AA-%D9%87%D9%88%D8%B4%D9%85%D9%86%D8%AF\" rel=\"noopener\" target=\"_blank\">خرید ساعت هوشمند</a>&nbsp;است. ساعت هوشمند مدل اولترا سامسونگ در سال 2024 مجهز به هوش مصنوعی گلکسی ai است و به عنوان بهترین&nbsp;<a href=\"https://www.technolife.ir/product/list/30_162_1042/%D8%B3%D8%A7%D8%B9%D8%AA-%D8%B6%D8%AF-%D8%A2%D8%A8\" rel=\"noopener\" target=\"_blank\">ساعت هوشمند ضد آب</a>&nbsp;می&zwnj;تواند تا عمق 100 متر در برابر فشار آب مقاومت کند. صفحه نمایش 1.5 اینچی این ساعت هوشمند به شکل متفاوتی نسبت به سال&zwnj;های قبلی طراحی شده و دکمه جدیدی روی بدنه آن قرار گرفته است.</p>\r\n\r\n<p>رزولوشن ساعت هوشمند سری اولترا سامسونگ به حسگرهای ضربان قلب اپتیکال، تحلیل الکتریکی قلب، تحلیل آمپدانس بیوالکتریک)، SpO2، قطب&zwnj; نما (Compass)، شتاب&zwnj; سنج (Accelerometer)، ژیروسکوپ (Gyro)، سنجش دمای بدن و آب، ارتفاع و فشار سنج، سنسور ECG و فشار خون مجهز شده است و می&zwnj;تواند در کنار نرم افزارهای مربوط به ورزش هم کمک بزرگی برای زندگی حرفه&zwnj;ای شما باشد.</p>\r\n\r\n<p><a href=\"https://www.technolife.ir/product-51150/%D8%B3%D8%A7%D8%B9%D8%AA-%D9%87%D9%88%D8%B4%D9%85%D9%86%D8%AF-%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%DA%AF-%D9%85%D8%AF%D9%84-galaxy-watch7-(sm-l310nz)-44mm\" rel=\"noopener\" target=\"_blank\">خرید گلکسی واچ اولترا</a></p>",
+        "short_description": "بهترین ساعت برای سخت پسندان گالکسی هست.",
+        "price": 10000000,
+        "active": true,
+        "image": "product/product_cover/galaxy-watch-6.jpg",
+        "datetime_created": "2025-03-01T10:13:19Z",
+        "datetime_modified": "2025-03-01T10:15:19.756Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+        "user": 1,
+        "title": "لپ تاپ اداری",
+        "description": "<h2>تاریخچه لپ&zwnj;تاپ</h2>\r\n\r\n<p>لپ تاپ به رایانه&zwnj;های شخصی کوچک، سبک و قابل حمل گفته می&zwnj;شود که در مقابل رایانه&shy; های رومیزی به کار گرفته می&zwnj;شود. وزن یک لپ تاپ معمولا بین 1 تا 7 کیلو می&zwnj;&shy;باشد و قادر خواهد بود به وسیله یک باتری به کار خود ادامه دهد. لپ تاپ&zwnj;&shy;ها به&shy;&zwnj;طور کلی دارای همان اجزایی هستند که در یک رایانه رومیزی استفاده شده، با این تفاوت که تا جای ممکن از وزن و اندازه آن کاسته شده است. اولین لپ تاپ&shy;&zwnj;ها یا همان کامپیوترهای قابل حمل به اسم داینابوک، در سال 1970 توسط الن کی پیاده&zwnj;&shy;سازی شد [<a href=\"https://web.stanford.edu/class/ee380/9697spr/node10.html\" target=\"_blank\">منبع</a>] و به اندازه&zwnj;&shy;ی یک دفترچه یادداشت کوچک بود؛ ولی افتخار ساخت اصلی لپ تاپ&shy; به شرکت بزرگ آی بی ام می&shy;رسد که توانست در سال 1975 لپ تاپ را وارد بازار جهانی کند [<a href=\"http://www.brouhaha.com/~eric/retrocomputing/ibm/5100/\" target=\"_blank\">منبع</a>].</p>\r\n\r\n<h3>مزایای لپ&zwnj;تاپ</h3>\r\n\r\n<p>البته مهم&zwnj;ترین&nbsp;مزیت لپ&zwnj;تاپ و درواقع وجه تمایز آن با رایانه&zwnj;های رومیزی این است که شما&nbsp;سر کار، حین پرواز، یا وقتی در کافه نشسته&zwnj;اید و قهوه نوش جان می&zwnj;کنید. در تمام این موارد می&zwnj;توانید از لپ&zwnj;تاپ استفاده کنید. اما گذشته از این مورد شاید بتوان به مواردی دیگر نیز اشاره کرد:&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>کوچک و قابل حمل بودن</li>\r\n\t<li>انعطاف پذیری</li>\r\n\t<li>صفحه کلید با قابلیت تاشو بودن</li>\r\n\t<li>سروصدای کمتر در هنگام کار کردن</li>\r\n</ul>\r\n\r\n<h3>معایب لپ&zwnj;تاپ</h3>\r\n\r\n<ul>\r\n\t<li>گرافیک ضعیف&zwnj;&shy;تر به نسبت رایانه&zwnj;&shy;های رومیزی هم رده خود (البته این موضوع تا حدود زیادی در لپ&zwnj;تاپ&zwnj;های گیمینگ حل شده است)</li>\r\n\t<li>بلندگوهای ضعیف</li>\r\n\t<li>گران&shy;تر بودن آن&shy;ها به نسبت رایانه&zwnj;&shy;های رومیزی</li>\r\n\t<li>عمر کوتاه باتری</li>\r\n\t<li>محدودیت در ارتقای دستگاه</li>\r\n</ul>\r\n\r\n<h2>انواع لپ تاپ:<strong>&nbsp;</strong>نت بوک، اولترابوک و هیبریدی</h2>\r\n\r\n<p><img alt=\"همه چیز درباره لپ تاپ\" src=\"https://berozkala.com/Upload/Files/jpg/b537d0e6b1d94cf7900762dc0ed47e04.jpg\" /></p>\r\n\r\n<p>در حالیکه در گذشته لپ تاپ&shy;ها فقط از نوع تاشوی استاندارد بودند، اما امروزه شما چندین گزینه برای انتخاب پیش رو دارید: شما می&zwnj;توانید بین لپ تاپ تاشوی عادی، لپ&zwnj;تاپ تاشو با قابلیت صاف قرار گرفتن در موقعیت 180 درجه،&nbsp;لپ تاپ هیبریدی 2 در 1 یا همان 360 درجه و البته از لپ تاپ ترکیبی با صفحه کلید قابل جدا شدن دست به انتخاب بزنید. همچنین لپ تاپ&shy;&zwnj;ها بر اساس وزن و اندازه&zwnj;ی خود، به 3 دسته&nbsp;<strong>نِت بوک</strong>،&nbsp;<strong>اولترابوک&nbsp;</strong>و&nbsp;<strong>هیبریدی&shy;&nbsp;</strong>تقسیم&nbsp;بندی می&shy;&zwnj;شوند. در قسمت پایین به ترتیب به همه&zwnj;ی این موارد خواهیم پرداخت:</p>\r\n\r\n<h3>نِت بوک&zwnj;ها (NetBooks)</h3>\r\n\r\n<p>پیش از هرچیز باید توجه کنید که نِت بوک با نوت بوک (NoteBook)&nbsp;متفاوت است. نِت بوک&shy;ها لپ تاپ&zwnj;&shy;هایی سبک وزن، قابل حمل، مقرون به صرفه، با بهره&shy;&zwnj;وری انرژی به خصوص برای ارتباطات بی&zwnj;&shy;سیم و دسترسی مناسب به اینترنت هستند که به جای نوت بوک که بیشتر تمرکز آن بر روی وبگردی و ایمیل است و همچنین سایز بزرگتری نیز دارند، طراحی گردیده&zwnj;اند.<strong>&nbsp;توجه داشته باشید که نت بوک&zwnj;&shy;ها سخت افزارهای قوی ندارند و برای محاسبات سنگین و نرم افزارهای تخصصی پیشنهاد نمی&shy;&zwnj;شوند.</strong></p>\r\n\r\n<h3>اولترابوک&zwnj;ها</h3>\r\n\r\n<p>اولترابوک در سال 2011 توسط شرکت آمریکایی اینتل، به بازار جهانی معرفی شد. اولترابوک&zwnj;&shy;ها گونه&zwnj;&shy;ای از لپ تاپ&shy;ها هستند که بین ویژگی&shy;&zwnj;های ظاهری&nbsp;<a href=\"https://berozkala.com/products/18/%D8%AA%D8%A8%D9%84%D8%AA\" target=\"_blank\">تبلت</a>&nbsp;و لپ تاپ قرار گرفته&zwnj;&shy;اند.&nbsp;<strong>از ویژگی&shy;&zwnj;های ظاهری الترابوک&zwnj;ها می&zwnj;توان به ضخامت زیر 20 میلی&shy;متر، سبک بودن، قدرت و&nbsp;<a href=\"https://berozkala.com/products/11/%D9%BE%D8%B1%D8%AF%D8%A7%D8%B2%D9%86%D8%AF%D9%87\" target=\"_blank\">پردازنده</a>&nbsp;قابل قبول اشاره نمود.</strong></p>\r\n\r\n<h3>لپ تاپ&zwnj;های هیبریدی</h3>\r\n\r\n<p>در واقع لپ تاپ لمسی هیبریدی را می&zwnj;&shy;توان فرزند تبلت و لپ تاپ در نظر گرفت.<strong>لپ&zwnj;تاپ&zwnj;&nbsp;هیبریدی برای کاربرانی که لپ&zwnj;تاپ می&zwnj;خواهند، هم صفحه کلید و سایر ویژگی&zwnj;های لپ تاپ را دارد و هم برای افرادی که تبلت می&zwnj;خواهند از صفحه نمایش لمسی برخوردار است.</strong>&nbsp;لپ تاپ&zwnj;&shy;های هیبریدی معمولا در اندازه&zwnj;&shy;های کوچکتری عرضه می&zwnj;&shy;شوند و به نسبت، قیمت بالایی نیز دارند؛ اما اگر نمی&shy;توانید هزینه زیادی پرداخت کنید، می&zwnj;&shy;توانید مدل&shy;&zwnj;های 2 در 1 با نمایشگرهای 15 اینچی را نیز انتخاب نمایید.</p>\r\n\r\n<p><strong>بیشتر بخوانیم:</strong>&nbsp;<a href=\"https://berozkala.com/post/3669/%DA%86%DA%AF%D9%88%D9%86%D9%87-%D9%84%D9%BE-%D8%AA%D8%A7%D9%BE-%D8%AE%D9%88%D8%AF-%D8%B1%D8%A7-%D8%A8%D9%87-%D8%A7%DB%8C%D9%86%D8%AA%D8%B1%D9%86%D8%AA-%D9%85%D8%AA%D8%B5%D9%84-%DA%A9%D9%86%DB%8C%D9%85\" target=\"_blank\">نحوه اتصال&nbsp;لپ تاپ&nbsp;به اینترنت</a></p>\r\n\r\n<h2>کاربرد لپ تاپ در دنیای امروز</h2>\r\n\r\n<p>هنگام انتخاب لپ تاپ مناسب، توجه به کارایی آن بسیار حائز اهمیت است. اینکه شما فقط از لپ تاپ خود برای دیدن فیلم یا گشت و گذار در اینترنت استفاده می&shy;&zwnj;کنید و یا اینکه با آن کاری تخصصی مانند برنامه نویسی یا فتوشاپ انجام می&zwnj;&shy;دهید، در انتخاب لپ تاپ مناسب بسیار اهمیت دارد. این روزها با افزایش قیمت لپ تاپ، خرید لپ تاپی که کارایی زیادی داشته باشد، یک سرمایه&zwnj;&shy;گذاری بلندمدت محسوب می&zwnj;&shy;شود. به همین دلیل باید مطمئن باشید که پیش از خرید، لپ تاپی مناسب با نیاز و بودجه خود را پیدا کرده&shy; باشید.&nbsp;با در نظر گرفتن نکات ارائه شده در زیر، می&shy;&zwnj;توانید انتخابی آگاهانه &shy;تر نیز داشته باشید:</p>\r\n\r\n<ol>\r\n\t<li>به دنبال لپ تاپی با ماندگاری باتری در محدوده 8 تا 10 ساعت باشید.</li>\r\n\t<li>بهتر است برای راحتی و قابل حمل بودن، لپ تاپی با صفحه نمایش بین 12 تا 14 اینچ انتخاب کنید. اما چنانچه طراح یا گیمر هستید و نیاز به حمل دائم لپ تاپ ندارید، صفحه نمایش 15 تا 17 اینچ نیز انتخاب مناسبی برای&nbsp;<a href=\"https://berozkala.com/post/3836/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AE%D8%B1%DB%8C%D8%AF-%D9%84%D9%BE%D8%AA%D8%A7%D9%BE-%DA%AF%DB%8C%D9%85%DB%8C%D9%86%DA%AF\" target=\"_blank\">لپ تاپ گیمینگ</a>&nbsp;شما خواهدبود.</li>\r\n\t<li>اگر به صفحه لمسی نیاز دارید و می&zwnj;&shy;خواهید لپ تاپ، قابلیت حمل بیشتری نیز داشته باشد، یک مدل ترکیبی 2 در 1 یا مدلی با صفحه کلید جداشونده انتخاب کنید. دقت کنید برای صرفه جویی در هزینه بهتر است از مدل تاشو آن استفاده نمایید.</li>\r\n\t<li>وجود حداقل 3 پورت USB و یک پورت HDMI لپ تاپ شما را استاندارد می&shy;&zwnj;کند اما وجود یک پورت USB-C نیز می&shy;تواند کارساز باشد.</li>\r\n\t<li>برای اجرای برنامه&shy;&zwnj;های بیشتر یا اجرای بهتر بازی، به سراغ دستگاهی با قابلیت نصب ویندوز 10 باشید. چنانچه دستگاه ارزان قیمتی برای وبگردی و تماشای فیلم می&shy;&zwnj;خواهید، بهتر است به سراغ Chromebook بروید و اگر برای شما بازی یا نصب برنامه&shy;&zwnj;های ویندوزی اهمیت ندارد، سیستم عامل Mac انتخابی عالی خواهد بود.</li>\r\n\t<li>هرگز لپ تاپی با رم کمتر از 4 گیگابایت را انتخاب نکنید. حداقل 500 گیگابایت فضای هارد دیسک را در نظر داشته باشید مگر اینکه Chromebook با&nbsp;<a href=\"https://berozkala.com/products/50/%D8%AD%D8%A7%D9%81%D8%B8%D9%87-SSD\" target=\"_blank\">حافظه SSD</a>&nbsp;را انتخاب کنید.</li>\r\n\t<li>برای خرید یک دستگاه میان رده در ردیف قیمتی 10 میلیون تومان، سعی کنید لپ تاپی با رم کمتر از 8 گیگابایت را انتخاب نکنید و مطمئن شوید که به جای HDD استاندارد یک SSD سریعتر را جایگزین می&shy;&zwnj;کنید.</li>\r\n\t<li>پردازنده Intel Core i5 یا بالاتر از آن را خریداری کنید.</li>\r\n\t<li>برای خرید یک لپ تاپ پیشرفته، مطمئن شوید که دستگاه دارای&nbsp;<a href=\"https://berozkala.com/products/12/%DA%A9%D8%A7%D8%B1%D8%AA-%DA%AF%D8%B1%D8%A7%D9%81%DB%8C%DA%A9\" target=\"_blank\">کارت گرافیک</a>&nbsp;داخلی حداقل GTX 1050 Ti یا بالاتری باشد. در مورد رم نیز، وجود حداقل رم 16 گیگابایتی و پردازنده Intel Core i7 الزامی است.</li>\r\n\t<li>در نهایت مطمئن شوید که یک SSD با ظرفیت حداقل 128 گیگابایت یا یک ترابایت&nbsp;<a href=\"https://berozkala.com/products/14/%D9%87%D8%A7%D8%B1%D8%AF-%D8%A7%DB%8C%D9%86%D8%AA%D8%B1%D9%86%D8%A7%D9%84\" target=\"_blank\">حافظه HDD</a>&nbsp;برای داشتن فضای ذخیره&shy;سازی بیشتر تهیه کرده&zwnj;&shy;اید.</li>\r\n</ol>\r\n\r\n<p><strong>پیشنهاد مطالعه:</strong>&nbsp;<a href=\"https://berozkala.com/post/4042/%D9%84%D9%BE-%D8%AA%D8%A7%D9%BE-%D9%84%D9%86%D9%88%D9%88-%D8%A8%D8%AE%D8%B1%D9%85-%DB%8C%D8%A7-%D8%A7%DB%8C%D8%B3%D9%88%D8%B3\" target=\"_blank\">مقایسه جزئی لپ تاپ لنوو و ایسوس</a></p>\r\n\r\n<h2>اهمیت لپ تاپ در زندگی روزانه ما و استفاده&zwnj;های آن</h2>\r\n\r\n<p>لپ تاپ &shy;ها با گذشت زمان زندگی ما را آسان&shy;تر کرده&zwnj;&shy;اند. امروزه به راحتی می&zwnj;&shy;توانیم کارهای بیشتری را در زمانی کمتر، به وسیله لپ تاپ در هر کجا و در هر زمان انجام دهیم. چه در قطار در حال سفر باشید و چه به مهمانی رفته باشید، لپ تاپ&zwnj;&shy;ها می&shy;&zwnj;توانند همیشه در کنار شما باشند و در زمان نیاز به کمک شما بشتابند.</p>\r\n\r\n<p><img alt=\"کاربردهای لپ تاپ\" src=\"https://berozkala.com/Upload/Files/jpg/8d508a188d2241aaac423cf9e8a85436.jpg\" /></p>\r\n\r\n<p>برای داشتن استفاده&shy;&zwnj;های مفید از لپ تاپ می&shy;توان نرم افزارهای متعددی بر روی آن نصب نمود و در پاسخ به سوالی که کاربردهای لپ تاپ چیست ؟&nbsp;باید به نرم&shy;&zwnj;افزارهای نصب شده بر روی آن توجه داشت. بنابراین کارایی لپ تاپ بسیار بالا و به نسبت نوع نیاز شما می&shy;تواند متفاوت باشد. به طور کلی می&zwnj;توان استفاده&zwnj;های زیر را از لپ&zwnj;تاپ انتظار داشت:</p>\r\n\r\n<h3>استفاده از لپ تاپ برای بازی</h3>\r\n\r\n<p>برای انجام بازی، کارت گرافیک دستگاه و میزان حافظه آن از اهمیت بسیار زیادی برخوردار است. بسیاری از گیمرها لپ تاپی را ترجیح می&zwnj;&shy;دهند که صفحه نمایش آن بزرگتر، وضوح نمایش آن بیشتر و ظرفیت حافظه آن نیز بالا باشد. پیشنهاد می&zwnj;کنیم اگر به این موضع علاقه&zwnj;مندید حتما از مقاله&nbsp;<a href=\"https://berozkala.com/post/3638/%D8%A8%D9%87%D8%AA%D8%B1%DB%8C%D9%86-%D9%84%D9%BE%D8%AA%D8%A7%D9%BE-%D9%87%D8%A7%DB%8C-%DA%AF%DB%8C%D9%85%DB%8C%D9%86%DA%AF-%D8%A7%D8%B1%D8%B2%D8%A7%D9%86-%D9%82%DB%8C%D9%85%D8%AA-%D8%AF%D8%B1-%D8%B3%D8%A7%D9%84-%DB%B2%DB%B0%DB%B2%DB%B1\" target=\"_blank\">معرفی لپ تاپ گیمینگ با قیمت مناسب</a>&nbsp;دیدن کنید.</p>\r\n\r\n<h3>استفاده از لپ تاپ در خانه</h3>\r\n\r\n<p>از لپ تاپ در خانه استفاده&shy; های گوناگونی خواهد شد. ممکن است از آن برای دسترسی به شبکه&shy; های اجتماعی، دسترسی به سیستم&shy;های بانکی، پرداخت قبوض، یافتن انواع اطلاعات، ذخیره سازی و ویرایش محتواهای تصویری، تماشای فیلم و... استفاده نمود.</p>\r\n\r\n<h3>استفاده از لپ تاپ در آموزش و سلامت</h3>\r\n\r\n<p>دانش آموزان و دانشجویان می&shy;&zwnj;توانند با استفاده از لپ تاپ، در هر زمان و در هر مکان به اطلاعات خود دسترسی پیدا کنند و از وقت با ارزش خود، نهایت استفاده را ببرند. استفاده از وبلاگ&shy;&zwnj;های آموزشی، کتاب&shy;های الکترونیکی، اینفوگرافیک و سایر ابزارهای آموزشی، بدون استفاده از لپ تاپ به آسانی میسر نیست. همچنین در حوزه سلامت و پزشکی نیز از لپ تاپ استفاده&shy;&zwnj;های بسیار زیادی برای بایگانی پرونده&shy;&zwnj;های پزشکی و تجزیه و تحلیل آزمایشات می&zwnj;&shy;شود.</p>\r\n\r\n<p><strong>پیشنهاد مطالعه:</strong>&nbsp;<a href=\"https://berozkala.com/post/4038/%D9%84%D9%BE-%D8%AA%D8%A7%D9%BE-%D9%85%D9%86%D8%A7%D8%B3%D8%A8-%D8%AA%D8%A7%DB%8C%D9%BE\" target=\"_blank\">بهترین لپ تاپ برای تایپ</a>&nbsp;و نوشتن کدام است؟</p>\r\n\r\n<h3>استفاده از لپ تاپ ها در بانک ها و سازمان های دولتی</h3>\r\n\r\n<p>اکثر سازمان&zwnj;&shy;های دولتی و بانک&shy;&zwnj;ها امروزه اطلاعات عملیاتی و حسابداری خود را بر روی لپ تاپ&shy; ثبت می&shy;&zwnj;کنند. لپ تاپ&shy;&zwnj;ها عملیات ذخیره سازی و نگهداری داده&shy;&zwnj;ها را آسان&shy;تر نموده، مکان فایل&shy;ها و اطلاعات ارزشمند را تسهیل کرده و با استفاده از ابزارها و نرم افزارهای اداری بی&zwnj;&shy;شمار، کارها را تسهیل بخشیده&shy;&zwnj;اند. بانک&zwnj;&shy;ها نیز به لطف لپ تاپ&shy;&zwnj;ها و سرورهای مرکزی، می&zwnj;&shy;توانند میلیون&shy;ها تراکنش بین بانکی روزانه را با دقت و سرعت بالا پشتیبانی کنند.</p>\r\n\r\n<h3>استفاده از لپ تاپ در زمینه&zwnj;های دیگر</h3>\r\n\r\n<p>در زمینه&zwnj;های دیگری از جمله معماری، برنامه &shy;نویسی، تولید محتوا، فتوشاپ، طراحی سایت و ... نیز می&zwnj;&shy;توان از لپ تاپ&shy;ها استفاده نمود و با کمک آن، روند انجام کار را بهبود بخشید.&nbsp;</p>\r\n\r\n<p><strong>پیشنهاد مطالعه:</strong>&nbsp;<a href=\"https://berozkala.com/post/3674/%DA%86%D9%87-%D9%84%D9%BE%D8%AA%D8%A7%D9%BE-%D9%87%D8%A7%DB%8C%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%88%DB%8C%D8%B3%D8%A7%D9%86-%D9%85%D9%86%D8%A7%D8%B3%D8%A8-%D8%A7%D8%B3%D8%AA\" target=\"_blank\">بهترین لپ تاپ برای برنامه نویسی</a></p>\r\n\r\n<h2>قیمت انواع لپ تاپ</h2>\r\n\r\n<p>قیمت لپ تاپ بسیار وابسته به نرخ ارز و دلار است؛ اما اگر بخواهیم دقیق به عوامل مهم و تاثیرگذار بر روی قیمت لپ تاپ بپردازیم، باید بگوییم که تمام ویژگی&shy;های لپ تاپ حتی نور پس زمینه کیبورد نیز بر قیمت آن تاثیر دارد.&nbsp;<strong>وقتی سراغ لپ تاپی با قیمت متوسط هستید، مهمترین اولویت های شما باید CPU قوی و فضای هارد دیسک بالا باشد.&nbsp;</strong>اگر سرعت را بر فضای ذخیره&shy;&zwnj;سازی ترجیح می&zwnj;&shy;دهید، باید لپ تاپی با 128 گیگابایت حافظه SSD را به جای HDD معمولی 1 ترابایتی انتخاب کنید.</p>\r\n\r\n<p>همچنین اگر کمی جستجو کنید، لپتاپ&shy;های دست دوم تعمیر شده یا استوکی را با قیمت&shy;&zwnj;های بسیار پایین&shy;&zwnj;تر از نوع آکبند آن پیدا می&shy;&zwnj;کنید. به غیر از مدل&shy;&zwnj;هایی که دارای تخفیف ویژه هستند، احتمالاً در محدوده قیمتی مناسب یک Chromebook یا یک دستگاه ویندوزی تعمیر شده را نیز می&zwnj;&shy;توانید به راحتی پیدا کنید. اما اگر بخواهید برای خرید لپ تاپ بیش از 25 میلیون تومان هزینه کنید، احتمالا ویژگی&shy;&zwnj;های بیشتری را همراه با لپ تاپ به خود هدیه خواهید داد. در نهایت تمامی موارد ذکر شده در زیر می&shy;&zwnj;توانند بر قیمت نهایی لپ تاپ شما اثرگذار باشند:</p>",
+        "short_description": "استفاده از لپ تاپ ها در بانک ها و سازمان های دولتی\r\nاکثر سازمان‌­های دولتی و بانک­‌ها امروزه اطلاعات عملیاتی و حسابداری خود را بر روی لپ تاپ­ ثبت می­‌کنند. لپ تاپ­‌ها عملیات ذخیره سازی و نگهداری داده­‌ها را آسان­تر نموده، مکان فایل­ها و اطلاعات ار",
+        "price": 34000000,
+        "active": true,
+        "image": "product/product_cover/images.jpg",
+        "datetime_created": "2025-03-01T10:16:42Z",
+        "datetime_modified": "2025-03-01T10:18:27.095Z"
+    }
+},
+{
+    "model": "products.comment",
+    "pk": 1,
+    "fields": {
+        "product": 2,
+        "author": 1,
+        "body": "این محصول را پارسال خریدم و از خریدم راضی هستم.",
+        "stars": "4",
+        "datetime_created": "2025-03-01T09:56:50.107Z",
+        "datetime_modified": "2025-03-01T09:56:50.107Z",
+        "active": true
+    }
+},
+{
+    "model": "products.comment",
+    "pk": 2,
+    "fields": {
+        "product": 3,
+        "author": 1,
+        "body": "این مانتو را سال گذشته برای خانم خود خریدم و از خرید خود راضی هستم.",
+        "stars": "5",
+        "datetime_created": "2025-03-01T09:58:48.597Z",
+        "datetime_modified": "2025-03-01T09:58:48.597Z",
+        "active": true
+    }
+},
+{
+    "model": "products.comment",
+    "pk": 3,
+    "fields": {
+        "product": 4,
+        "author": 1,
+        "body": "از این کفش در سالن فوتسال استفاده کردم و از آن راضی هستم.",
+        "stars": "2",
+        "datetime_created": "2025-03-01T10:00:38.015Z",
+        "datetime_modified": "2025-03-01T10:00:38.015Z",
+        "active": true
+    }
+},
+{
+    "model": "products.comment",
+    "pk": 4,
+    "fields": {
+        "product": 5,
+        "author": 1,
+        "body": "ماشین خوبی نبود. زود شارژ خالی میکرد.",
+        "stars": "1",
+        "datetime_created": "2025-03-01T10:04:22.640Z",
+        "datetime_modified": "2025-03-01T10:04:22.640Z",
+        "active": true
+    }
+},
+{
+    "model": "products.comment",
+    "pk": 5,
+    "fields": {
+        "product": 6,
+        "author": 1,
+        "body": "من همیشه این قهوه را میخورم و راضی هستم.",
+        "stars": "4",
+        "datetime_created": "2025-03-01T10:09:53.927Z",
+        "datetime_modified": "2025-03-01T10:09:53.927Z",
+        "active": true
+    }
+},
+{
+    "model": "products.comment",
+    "pk": 6,
+    "fields": {
+        "product": 6,
+        "author": 1,
+        "body": "بهترین برند قهوه فوری",
+        "stars": "5",
+        "datetime_created": "2025-03-01T10:09:53.928Z",
+        "datetime_modified": "2025-03-01T10:09:53.928Z",
+        "active": true
+    }
+}
+]

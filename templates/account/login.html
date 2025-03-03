@@ -1,6 +1,7 @@
 {% extends '_base.html' %}
 {% load crispy_forms_tags %}
 {% load i18n %}
+{% load static %}
 
 {% block page_title %}
     {% trans 'Log In' %}
@@ -14,4 +15,7 @@
         {{ form|crispy }}
         <input type="submit" value="ورود">
     </form>
+    <a href="{% url 'account_reset_password' %}" class="btn btn-secondary forget-password-btn">
+        فراموشی رمز عبور؟
+    </a>
 {% endblock %}

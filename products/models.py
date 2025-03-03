@@ -8,6 +8,7 @@ from ckeditor.fields import RichTextField
 
 
 class Product(models.Model):
+    user = models.ForeignKey(get_user_model(), on_delete=models.CASCADE, default=1)
     title = models.CharField(_('Product Title'), max_length=100)
     description = RichTextField(_('description'), )
     short_description = models.TextField(_('Short_Description'), blank=True)

@@ -20,7 +20,7 @@
                                     <div class="shop-toolbar__left d-flex align-items-sm-center align-items-start flex-sm-row flex-column">
                                         <p class="product-pages">
                                             {% trans 'Page ' %}{{ page_obj.number|translate_number }}
-                                            {% trans ' from ' %}{{ 3|translate_number }}
+                                            {% trans ' from ' %}{{ page_obj.paginator.num_pages|translate_number }}
                                         </p>
                                     </div>
                                 </div>
@@ -42,12 +42,12 @@
                                                 <figure class="product-image">
                                                     <a href="{{ product.get_absolute_url }}">
                                                         {% if product.image %}
-                                                            <img src="{{ product.image.url }}" alt="Products" height="200px">
+                                                            <img src="{{ product.image.url }}" alt="Products" style="width: auto; height: 200px; object-fit: cover; background-position: center;">
                                                         {% endif %}
                                                     </a>
                                                     <div class="ShoppingYar-product-action">
                                                         <div class="product-action d-flex">
-                                                            <a href="wishlist.html" class="action-btn">
+                                                            <a href="#" class="action-btn">
                                                                 <i class="flaticon flaticon-like"></i>
                                                             </a>
                                                         </div>

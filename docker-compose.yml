@@ -2,8 +2,12 @@ version: '3.9'
 
 services:
   web:
+    container_name: web
     build: .
-    command: python /code/manage.py runserver 0.0.0.0:8000
+    command: >
+      sh -c "python manage.py migrate &&
+             python manage.py loaddata fixtures/initial_data.json &&
+             python /code/manage.py runserver 0.0.0.0:8000"
     volumes:
       - .:/code
     ports:
@@ -13,9 +17,17 @@ services:
     environment:
       - "DJANGO_SECRET_KEY=${DOCKER_COMPOSE_DJANGO_SECRET_KEY}"
       - "DJANGO_DEBUG=${DOCKER_COMPOSE_DJANGO_DEBUG}"
+      - "DJANGO_EMAIL_BACKEND=${DOCKER_COMPOSE_DJANGO_EMAIL_BACKEND}"
+      - "DJANGO_EMAIL_HOST=${DOCKER_COMPOSE_DJANGO_EMAIL_HOST}"
+      - "DJANGO_EMAIL_USE_TLS=${DOCKER_COMPOSE_DJANGO_EMAIL_USE_TLS}"
+      - "DJANGO_EMAIL_PORT=${DOCKER_COMPOSE_DJANGO_EMAIL_PORT}"
+      - "DJANGO_EMAIL_HOST_USER=${DOCKER_COMPOSE_DJANGO_EMAIL_HOST_USER}"
+      - "DJANGO_EMAIL_HOST_PASSWORD=${DOCKER_COMPOSE_DJANGO_EMAIL_HOST_PASSWORD}"
+
 
 
   db:
     image: postgres:14
+    container_name: db
     environment:
       - "POSTGRES_HOST_AUTH_METHOD=trust"

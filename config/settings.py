@@ -28,7 +28,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECRET_KEY = env("DJANGO_SECRET_KEY")
 SECRET_KEY = 'django-insecure-1hjfrg!4gh%gpdqg(r2c@axf-3s_8flb$S$1%ubimo+8w4e@nj'
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -87,6 +87,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                # custom options
+                'cart.context_processors.cart',
             ],
         },
     },
@@ -178,20 +180,30 @@ AUTHENTICATION_BACKENDS = [
 
 ACCOUNT_SESSION_REMEMBER = True
 ACCOUNT_SIGNUP_PASSWORD_ENTER_TWICE = False
+ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_USERNAME_REQUIRED = False
 ACCOUNT_AUTHENTICATION_METHOD = 'email'
-ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_UNIQUE_EMAIL = True
+ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
+ACCOUNT_ADAPTER = 'allauth.account.adapter.DefaultAccountAdapter'
 
 # crispy forms settings
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 CRISPY_ALLOWED_TEMPLATE_PACKS = 'bootstrap4'
+
 # # EMAIL CONFIG
 # EMAIL_BACKEND = env("DJANGO_EMAIL_BACKEND")
 # EMAIL_HOST = env("DJANGO_EMAIL_HOST")
-# EMAIL_USER_TLS = env.bool("DJANGO_EMAIL_USER_TLS")
+# EMAIL_USE_TLS = env.bool("DJANGO_EMAIL_USE_TLS")
 # EMAIL_PORT = 587
 # EMAIL_HOST_USER = env("DJANGO_EMAIL_HOST_USER")
 # EMAIL_HOST_PASSWORD = env("DJANGO_EMAIL_HOST_PASSWORD")
+
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+EMAIL_HOST = "smtp.gmail.com"
+EMAIL_USE_TLS = True
+EMAIL_PORT = 587
+EMAIL_HOST_USER = "alirezabagherinezhaddev@gmail.com"
+EMAIL_HOST_PASSWORD = "wjvm nozj iuyr qzzg"
 
 STATIC_ROOT = BASE_DIR.joinpath('staticfiles')
