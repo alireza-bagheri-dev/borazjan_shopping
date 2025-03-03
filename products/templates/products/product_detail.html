@@ -27,6 +27,9 @@
                         <div class="col-12 col-sm-8 product-main-details mt-md--50">
                             <div class="product-summary pl-lg--30 pl-md--0 text-right p-4">
                                 <h3 class="product-title mb--20">{{ product.title }}</h3>
+                                <p>تاریخ ایجاد محصول: {{ product.datetime_created|to_jalali:'%H:%M - %Y/%m/%d'|translate_number }}</p>
+                                {% comment %} <p>تاریخ ویرایش محصول: {{ product.datetime_modified|to_jalali:'%H:%M - %Y/%m/%d'|translate_number }}</p> {% endcomment %}
+                                <p>تاریخ ویرایش محصول: {{ product.datetime_modified }}</p>
                                 {% if product.user == user %}
                                     <a href="{% url 'product_update' product.id %}">
                                         <!-- دکمه ویرایش -->
@@ -112,7 +115,7 @@
                                         <span>ویژگی ها</span>
                                     </a>
                                     <a class="m-0 product-data-tab__link nav-link" id="nav-reviews-tab" data-toggle="tab" href="#nav-reviews" role="tab" aria-selected="true">
-                                        <span>نظرات ({{ product.comments.all|only_active_comments|length }})</span>
+                                        <span>نظرات ({{ product.comments.all|only_active_comments|length|translate_number }})</span>
                                     </a>
                                 </div>
                                 <div class="tab-content product-data-tab__content" id="product-tabContent">
@@ -163,8 +166,8 @@
                                                                             <strong class="review__author px-4">{{ comment.author.username }}</strong>
                                                                         </div>
                                                                         <div class="product-rating">
-                                                                            <div class="m-0 star-rating star-five">
-                                                                                <span>Rated <strong class="rating">{{ product.stars }}</strong> out of 5</span>
+                                                                            <div class="m-0 star-rating star-four">
+                                                                                <span>Rated <strong class="rating">{{ comment.stars }}</strong> out of 5</span>
                                                                             </div>
                                                                         </div>
                                                                         <p class="review__description text-right px-4 pt-2">

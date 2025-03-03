@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-27 17:45+0330\n"
+"POT-Creation-Date: 2025-03-03 03:54+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,14 +56,25 @@ msgstr ""
 msgid "Please confirm email"
 msgstr "لطفا آدرس ایمیل خود را تایید کنید"
 
-#: templates/account/email_confirm.html:6
-#: templates/account/email_confirm.html:9
+#: templates/account/login.html:7 templates/account/login.html:11
+#: templates/registration/login.html:6 templates/registration/login.html:11
+msgid "Log In"
+msgstr "ورود"
+
+#: templates/account/signup.html:6 templates/account/signup.html:10
+#, fuzzy
+#| msgid "Signup"
+msgid "Sign Up"
+msgstr "ثبت نام"
+
+#: templates/account/verification_sent.html:6
+#: templates/account/verification_sent.html:9
 #: templates/registration/email_confirm.html:6
 #: templates/registration/email_confirm.html:9
 msgid "Confirm E-mail Address"
 msgstr "تایید"
 
-#: templates/account/email_confirm.html:15
+#: templates/account/verification_sent.html:15
 #: templates/registration/email_confirm.html:15
 #, python-format
 msgid ""
@@ -71,23 +82,18 @@ msgid ""
 "address for user %(user_display)s."
 msgstr ""
 
-#: templates/account/email_confirm.html:19
+#: templates/account/verification_sent.html:19
 #: templates/registration/email_confirm.html:19
 msgid "Confirm"
 msgstr "تایید"
 
-#: templates/account/email_confirm.html:26
+#: templates/account/verification_sent.html:26
 #: templates/registration/email_confirm.html:26
 #, python-format
 msgid ""
 "This e-mail confirmation link expired or is invalid. Please <a "
 "href=\"%(email_url)s\">issue a new e-mail confirmation request</a>."
 msgstr ""
-
-#: templates/account/login.html:6 templates/account/login.html:10
-#: templates/registration/login.html:6 templates/registration/login.html:11
-msgid "Log In"
-msgstr "ورود"
 
 #: venv/lib/python3.10/site-packages/ckeditor_uploader/forms.py:6
 msgid "Search files"

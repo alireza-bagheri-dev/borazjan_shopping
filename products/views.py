@@ -17,8 +17,6 @@ class ProductListView(generic.ListView):
     context_object_name = 'products'
     paginate_by = 4
 
-    # def get_queryset(self):
-    #
 
 class ProductDetailView(generic.DetailView):
     model = Product
