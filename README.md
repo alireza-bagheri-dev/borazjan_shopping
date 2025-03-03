@@ -29,7 +29,7 @@
 
 1. **Clone Repository**:
    ```bash
-   git clone git@github.com:alireza-bagheri-dev/borazjan_shopping.git
+   git clone https://github.com/alireza-bagheri-dev/borazjan_shopping.git
 
 2. ** Start Docker **:
    ```bash
